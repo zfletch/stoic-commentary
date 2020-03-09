@@ -6,6 +6,8 @@ class CreateComment < ActiveRecord::Migration[6.0]
       t.references :passage, null: false, foreign_key: true, index: true
       t.references :user, null: false, foreign_key: true, index: true
 
+      t.text :comment, null: false
+
       t.timestamps null: false
     end
 

@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_03_08_235539) do
     t.uuid "uuid", default: -> { "gen_random_uuid()" }, null: false
     t.bigint "passage_id", null: false
     t.bigint "user_id", null: false
+    t.text "comment", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["passage_id"], name: "index_comments_on_passage_id"
