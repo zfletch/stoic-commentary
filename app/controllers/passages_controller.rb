@@ -4,7 +4,7 @@ class PassagesController < ApplicationController
   # GET /passages
   # GET /passages.json
   def index
-    @passages = Passage.all
+    @passages = Passage.all.order(:rank)
   end
 
   # GET /passages/1
