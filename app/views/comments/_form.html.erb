@@ -11,17 +11,19 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :user_id %>
-    <%= form.text_field :user_id %>
-  </div>
+  <div class="form-group">
+    <div class="field">
+      <%= form.label :user_id %>
+      <%= form.select :user_id, User.all.map { |u| [u.name, u.id] }, {}, { class: 'form-control' } %>
+    </div>
 
-  <div class="field">
-    <%= form.label :comment %>
-    <%= form.text_area :comment %>
-  </div>
+    <div class="field mb-2">
+      <%= form.label :comment %>
+      <%= form.text_area :comment, class: 'form-control' %>
+    </div>
 
-  <div class="actions">
-    <%= form.submit %>
+    <div class="actions">
+      <%= form.submit class: 'btn btn-primary' %>
+    </div>
   </div>
 <% end %>
