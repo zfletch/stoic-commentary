@@ -3,10 +3,11 @@ class CreateComment < ActiveRecord::Migration[6.0]
     create_table :comments do |t|
       t.uuid :uuid, default: 'gen_random_uuid()', null: false
 
-      t.references :passage, null: false, foreign_key: true, index: true
+      t.references :reference, null: false, foreign_key: true, index: true
       t.references :user, null: false, foreign_key: true, index: true
 
       t.text :comment, null: false
+      t.integer :status, null: false, default: 0
 
       t.timestamps null: false
     end

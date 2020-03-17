@@ -1,13 +1,7 @@
 class Passage < ApplicationRecord
-  belongs_to :text
+  belongs_to :edition
+  belongs_to :reference
 
-  has_many :comments
-
-  def next_passage
-    Passage.find_by(text: text, rank: rank + 1)
-  end
-
-  def previous_passage
-    Passage.find_by(text: text, rank: rank - 1)
-  end
+  validates :passage, presence: true
+  validates :reference_id, uniqueness: { scope: :edition_id }
 end

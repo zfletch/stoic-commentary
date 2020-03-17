@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_08_235539) do
+ActiveRecord::Schema.define(version: 2020_03_17_024640) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
@@ -19,28 +19,52 @@ ActiveRecord::Schema.define(version: 2020_03_08_235539) do
 
   create_table "comments", force: :cascade do |t|
     t.uuid "uuid", default: -> { "gen_random_uuid()" }, null: false
-    t.bigint "passage_id", null: false
+    t.bigint "reference_id", null: false
     t.bigint "user_id", null: false
     t.text "comment", null: false
+    t.integer "status", default: 0, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["passage_id"], name: "index_comments_on_passage_id"
+    t.index ["reference_id"], name: "index_comments_on_reference_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
     t.index ["uuid"], name: "index_comments_on_uuid", unique: true
   end
 
+  create_table "editions", force: :cascade do |t|
+    t.uuid "uuid", default: -> { "gen_random_uuid()" }, null: false
+    t.bigint "text_id", null: false
+    t.string "name", null: false
+    t.text "description"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["text_id"], name: "index_editions_on_text_id"
+    t.index ["uuid"], name: "index_editions_on_uuid", unique: true
+  end
+
   create_table "passages", force: :cascade do |t|
     t.uuid "uuid", default: -> { "gen_random_uuid()" }, null: false
-    t.string "ref", null: false
-    t.bigint "text_id", null: false
+    t.bigint "edition_id", null: false
+    t.bigint "reference_id", null: false
     t.text "passage", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["edition_id", "reference_id"], name: "index_passages_on_edition_id_and_reference_id", unique: true
+    t.index ["edition_id"], name: "index_passages_on_edition_id"
+    t.index ["reference_id"], name: "index_passages_on_reference_id"
+    t.index ["uuid"], name: "index_passages_on_uuid", unique: true
+  end
+
+  create_table "references", force: :cascade do |t|
+    t.uuid "uuid", default: -> { "gen_random_uuid()" }, null: false
+    t.bigint "text_id", null: false
+    t.string "ref", null: false
     t.integer "rank", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["text_id", "rank"], name: "index_passages_on_text_id_and_rank", unique: true
-    t.index ["text_id", "ref"], name: "index_passages_on_text_id_and_ref", unique: true
-    t.index ["text_id"], name: "index_passages_on_text_id"
-    t.index ["uuid"], name: "index_passages_on_uuid", unique: true
+    t.index ["text_id", "rank"], name: "index_references_on_text_id_and_rank", unique: true
+    t.index ["text_id", "ref"], name: "index_references_on_text_id_and_ref", unique: true
+    t.index ["text_id"], name: "index_references_on_text_id"
+    t.index ["uuid"], name: "index_references_on_uuid", unique: true
   end
 
   create_table "texts", force: :cascade do |t|
@@ -64,7 +88,10 @@ ActiveRecord::Schema.define(version: 2020_03_08_235539) do
     t.index ["uuid"], name: "index_users_on_uuid", unique: true
   end
 
-  add_foreign_key "comments", "passages"
+  add_foreign_key "comments", "\"references\"", column: "reference_id"
   add_foreign_key "comments", "users"
-  add_foreign_key "passages", "texts"
+  add_foreign_key "editions", "texts"
+  add_foreign_key "passages", "\"references\"", column: "reference_id"
+  add_foreign_key "passages", "editions"
+  add_foreign_key "references", "texts"
 end
