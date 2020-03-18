@@ -1,0 +1,17 @@
+<div class="row text-center row-signin">
+  <%= bootstrap_form_with(model: @user_session, local: true, class: 'form-signin align-self-center') do |form| %>
+    <h1 class="h3 mb-3 font-weight-normal">
+      <%= t('.sign_in') %>
+    </h1>
+
+    <%= form.email_field :email, hide_label: true, placeholder: t('.email'), required: true, autofocus: true %>
+    <%= form.password_field :password, hide_label: true, placeholder: t('.password'), required: true %>
+
+    <div class="actions">
+      <%= form.submit t('.submit'), class: 'btn btn-lg btn-primary btn-block' %>
+    </div>
+    <div class="mt-2 text-left">
+      <%= link_to t('.create_account'), new_user_path %>
+    </div>
+  <% end %>
+</div>

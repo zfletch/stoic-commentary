@@ -14,3 +14,21 @@
  *= require_self
  *= require bootstrap/scss/bootstrap
  */
+
+html {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 62px;
+}
+
+.greek {
+  font-family: Tinos, serif !important;
+  font-size: 1.2rem !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 62px;
+}

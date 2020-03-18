@@ -2,12 +2,44 @@ en:
   authorizable:
     unauthorized: Please log in before continuing.
   sessions:
+    new:
+      email: Email address
+      password: Password
+      create_account: Create new account
+      submit: Sign in
+      sign_in: Please sign in
     create:
-      success: Successfully logged in.
+      success: Logged in.
+      log_out: Logged out.
   users:
+    new:
+      create_account: New account
+      password_confirmation: Confirm password
+      submit: Create account
+    edit:
+      update_account: Edit account
+      password_confirmation: Confirm password
+      submit: Update account
+    update:
+      success: Account updated.
     create:
-      success: Account successfully created.
+      success: Account created.
   comments:
     create:
       success: Comment saved.
       failure: Comment failed to save.
+  activemodel:
+    errors:
+      models:
+        session:
+          attributes:
+           email:
+            cannot_authenticate: Email or password invalid.
+  layouts:
+    header:
+      stoic: StOIC
+      home: Home
+      sign_in: Sign in
+      sign_out: Sign out
+    footer:
+      stoic: StOIC

@@ -1,7 +1,6 @@
 class UsersController < ApplicationController
   before_action :require_authentication, only: [:edit, :update]
   before_action :require_no_authentication, only: [:new, :create]
-  before_action :set_user, only: [:edit, :update]
 
   def new
     @user = User.new
@@ -11,7 +10,9 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if user.save
-      redirect_to root, notice: t('success')
+      sign_in(user)
+
+      redirect_to rcoot_path, success: t('success')
     else
       render :new
     end
@@ -21,21 +22,16 @@ class UsersController < ApplicationController
   end
 
   def update
-    if user.update(user_params)
-      redirect_to root, notice: t('.success')
+    if current_user.update(user_params)
+      redirect_to edit_user_path, success: t('.success')
     else
       render :edit
     end
   end
 
-
   private
 
   attr_reader :user
-
-  def ser_user
-    @user ||= User.find_by!(id: params[:id])
-  end
 
   def user_params
     params.require(:user).permit(
@@ -43,6 +39,6 @@ class UsersController < ApplicationController
       :name,
       :password,
       :password_confirmation,
-    )
+    ).delete_if { |k, v| v.blank? }
   end
 end

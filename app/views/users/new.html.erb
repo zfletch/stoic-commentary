@@ -1,5 +1,30 @@
-<h1>New User</h1>
+<div class="row">
+  <div class="col-12">
+    <h1 class="h3 mb-2 mt-4 font-weight-normal text-center">
+      <%= t('.create_account') %>
+    </h1>
 
-<%= render 'form', user: @user %>
+    <%= bootstrap_form_with(model: @user, local: true) do |form| %>
+      <div class="row">
+        <div class="col-md-6">
+          <%= form.email_field :email, required: true, autofocus: true %>
+        </div>
+        <div class="col-md-6">
+          <%= form.text_field :name, required: true %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <%= form.password_field :password, required: true %>
+        </div>
+        <div class="col-md-6">
+          <%= form.password_field :password_confirmation, required: true, label: t('.password_confirmation') %>
+        </div>
+      </div>
 
-<%= link_to 'Back', users_path %>
+      <div class="actions">
+        <%= form.submit t('.submit'), class: 'btn btn-lg btn-primary btn-block' %>
+      </div>
+    <% end %>
+  </div>
+</div>

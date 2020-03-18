@@ -1,14 +1,18 @@
 class SessionsController < ApplicationController
   before_action :require_authentication, only: [:destroy]
-  before_action :require_no_authentication, only: [:create]
+  before_action :require_no_authentication, only: [:new, :create]
+
+  def new
+    @user_session = Session.new
+  end
 
   def create
-    user = User.find_by(email: session_params[:email])
+    @user_session = Session.new(session_params)
 
-    if user && user.authenticate(session_params[:password])
-      sign_in(user)
+    if user_session.valid?
+      sign_in(user_session.user)
 
-      redirect_to return_path, t('success')
+      redirect_to return_path, sucecss: t('.success')
     else
       render :new
     end
@@ -17,16 +21,15 @@ class SessionsController < ApplicationController
   def destroy
     session.delete(:user_id)
 
-    redirect_to root_path
+    redirect_to root_path, notice: t('.log_out')
   end
 
   private
 
+  attr_reader :user_session
+
   def session_params
-    params.require(:session).permit(
-      :email,
-      :password,
-    )
+    params.require(:session).permit(:email, :password)
   end
 end
 
