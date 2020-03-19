@@ -9,4 +9,8 @@ class Comment < ApplicationRecord
     pending
     deleted
   ]
+
+  def user_name
+    user.name
+  end
 end

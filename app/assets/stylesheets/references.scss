@@ -1,6 +1,8 @@
 .splash-image {
-  background: image-url("splash.jpg");
+  background-image: image-url("splash.jpg");
   background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
   border-radius: 0 !important;
 }
 

@@ -7,6 +7,7 @@ class ReferencesController < ApplicationController
   helper_method :left, :right
 
   def show
+    @comment = Comment.new
   end
 
   def index
@@ -29,6 +30,6 @@ class ReferencesController < ApplicationController
   end
 
   def set_comments
-    @comments ||= reference.comments.order(:created_at)
+    @comments ||= reference.comments.includes(:user).order(:created_at)
   end
 end

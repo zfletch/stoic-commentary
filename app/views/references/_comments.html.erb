@@ -1,0 +1,35 @@
+<% if @comments.none? %>
+  <div class="row">
+    <div class="col-12">
+      <%= t('.no_comments') %>
+    </div>
+  </div>
+<% end %>
+<% @comments.each do |comment| %>
+  <div class="row">
+    <div class="col-12">
+      <h6>
+        <%= t('.says', name: comment.user_name) %>
+
+        <p class="reference-passage">
+          <%= comment.comment %>
+        </p>
+      </h6>
+    </div>
+  </div>
+<% end %>
+
+<% if current_user %>
+  <hr>
+
+  <div class="row mt-2">
+    <div class="col-12">
+      <%= bootstrap_form_with(model: @comment, url: [@reference, @comment]) do |form| %>
+        <%= form.text_area :comment, hide_label: true, placeholder: t('.leave_comment') %>
+        <div class="actions">
+          <%= form.submit t('.submit'), class: 'btn btn-primary' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+<% end %>
