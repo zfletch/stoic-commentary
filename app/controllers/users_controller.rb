@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     if user.save
       sign_in(user)
 
-      redirect_to rcoot_path, success: t('success')
+      redirect_to root_path, success: t('success')
     else
       render :new
     end
