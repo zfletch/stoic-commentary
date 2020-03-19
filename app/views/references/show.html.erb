@@ -1,0 +1,141 @@
+<div class="container mb-4">
+  <div class="row mt-2 text-center">
+    <div class="col-12">
+      <h2>
+        <%= t('.title', ref: @reference.display_ref) %>
+      </h2>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-1 col-2 offset-1 offset-lg-3">
+      <%= link_to t('.first'), reference_path(Reference.first), class: 'reference-navigation-link' %>
+    </div>
+    <div class="col-lg-1 col-2">
+      <%= link_to t('.previous'), reference_path(@reference.previous), class: 'reference-navigation-link' %>
+    </div>
+    <div class="col-lg-2 col-2">
+      <button type="button" class="btn btn-link pt-0 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <%= @reference.display_ref %>
+      </button>
+      <div class="dropdown-menu">
+        <% @references.each do |reference| %>
+          <%= link_to reference.display_ref, reference_path(reference), class: 'dropdown-item reference-navigation-link' %>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-lg-1 col-2">
+      <%= link_to t('.next'), reference_path(@reference.next), class: 'reference-navigation-link' %>
+    </div>
+    <div class="col-lg-1 col-2">
+      <%= link_to t('.last'), reference_path(Reference.last), class: 'reference-navigation-link' %>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row pt-2">
+    <div class="col-sm-6">
+
+      <% @passages.each do |passage| %>
+        <div class="passage passage-left-<%= passage.edition_id %> d-none">
+          <h5>
+            <form class="form-inline">
+              <span class="mr-2">
+                <%= passage.edition.name %>
+              </span>
+              <%= select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name), class: 'form-control select-left' %>
+            </form>
+          </h5>
+          <p class="reference-passage">
+            <%= passage.passage %>
+          </p>
+        </div>
+      <% end %>
+
+    </div>
+
+    <div class="col-sm-6">
+
+      <% @passages.each do |passage| %>
+        <div class="passage passage-right-<%= passage.edition_id %> d-none">
+          <h5>
+            <form class="form-inline">
+              <span class="mr-2">
+                <%= passage.edition.name %>
+              </span>
+              <%= select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name), class: 'form-control select-right' %>
+            </form>
+          </h5>
+          <p class="reference-passage">
+            <%= passage.passage %>
+          </p>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  var defaultLeft = '<%= j @passages.first.edition_id %>';
+  var defaultRight = '<%= j @passages.second.edition_id %>';
+
+  function getParams() {
+    var params = {};
+    var search = window.location.search.substring(1).split('&');
+    var values, ii;
+
+    for (ii = 0; ii < search.length; ii++) {
+      values = search[ii].split('=');
+
+      params[values[0]] = values[1];
+    }
+
+    return params;
+  }
+
+  function selectLeft(select) {
+    var params = getParams();
+    var right = params['right'] || defaultRight;
+    var left = select.target.value;
+
+    window.history.pushState({}, '', window.location.pathname + '?' + $.param({ left: left, right: right }));
+
+    render();
+  }
+
+  function selectRight(select) {
+    var params = getParams();
+    var left = params['left'] || defaultLeft;
+    var right = select.target.value;
+
+    window.history.pushState({}, '', window.location.pathname + '?' + $.param({ left: left, right: right }));
+
+    render();
+  }
+
+  function render() {
+    var params = getParams();
+    var left = params['left'] || defaultLeft;
+    var right = params['right'] || defaultRight;
+    var query = $.param({ left: left, right: right });
+
+    $('.passage').addClass('d-none');
+    $('.passage-left-' + left).removeClass('d-none');
+    $('.passage-right-' + right).removeClass('d-none');
+    $('.select-left').val(left);
+    $('.select-right').val(right);
+    $('.reference-navigation-link').each(function () {
+      var oldUrl = $(this).attr('href').split('?')[0];
+      var newUrl = oldUrl + '?' + query;
+      $(this).attr("href", newUrl);
+    });
+  }
+
+  render();
+
+  $('.select-left').change(selectLeft);
+  $('.select-right').change(selectRight);
+  $(window).on('popstate', render)
+</script>

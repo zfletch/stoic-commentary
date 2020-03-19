@@ -9,6 +9,7 @@ require("turbolinks").start()
 require("channels")
 
 require("bootstrap/dist/js/bootstrap")
+window.jQuery = window.$ = require("jquery/dist/jquery")
 require("typeface-tinos")
 
 // Uncomment to copy all static images under ../images to the output folder and reference

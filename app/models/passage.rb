@@ -4,4 +4,12 @@ class Passage < ApplicationRecord
 
   validates :passage, presence: true
   validates :reference_id, uniqueness: { scope: :edition_id }
+
+  def edition_id
+    edition.id
+  end
+
+  def edition_name
+    edition.name
+  end
 end
