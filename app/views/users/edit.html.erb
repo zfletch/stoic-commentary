@@ -8,7 +8,7 @@
       <%= bootstrap_form_with(model: current_user, local: true) do |form| %>
         <div class="row">
           <div class="col-md-6">
-            <%= form.email_field :email, required: true, autofocus: true %>
+            <%= form.email_field :email, required: true %>
           </div>
           <div class="col-md-6">
             <%= form.text_field :name, required: true %>

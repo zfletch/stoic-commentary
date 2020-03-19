@@ -18,6 +18,7 @@ gem 'bootstrap_form'
 group :development, :test do
   gem 'bullet'
   gem 'bundler-audit'
+  gem 'factory_bot_rails'
   gem 'pry-byebug'
   gem 'rspec-rails'
 end

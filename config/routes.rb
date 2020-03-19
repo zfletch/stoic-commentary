@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     resources :comments, only: [:index, :new, :create]
   end
   resources :editions, only: [:show]
+  resources :password_resets, only: [:new, :create, :show], param: :token
 
   root 'references#index'
 end

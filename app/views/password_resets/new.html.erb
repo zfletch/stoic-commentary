@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="h3 mb-2 mt-4 font-weight-normal text-center">
+        <%= t('.reset_password') %>
+      </h1>
+
+      <%= bootstrap_form_with(model: @password_reset, local: true) do |form| %>
+        <div class="row">
+          <div class="col-12">
+            <%= form.email_field :email, required: true %>
+          </div>
+        </div>
+
+        <div class="actions">
+          <%= form.submit t('.submit'), class: 'btn btn-lg btn-primary btn-block' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

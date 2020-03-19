@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
     if user_session.valid?
       sign_in(user_session.user)
 
-      redirect_to return_path, success: t('.success')
+      redirect_to root_path, success: t('.success')
     else
       render :new
     end
@@ -32,4 +32,3 @@ class SessionsController < ApplicationController
     params.require(:session).permit(:email, :password)
   end
 end
-
