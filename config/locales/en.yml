@@ -30,6 +30,9 @@ en:
     create:
       success: Comment saved.
       failure: Comment failed to save.
+    destroy:
+      success: Comment deleted.
+      permissions: You do not have permission to delete this comment.
   references:
     index:
       title: StOIC Interactive Commentary
@@ -47,6 +50,7 @@ en:
       says: "%{name} says:"
       no_comments: No comments.
       leave_comment: Leave a comment ...
+      delete: (delete)
       submit: Submit
   password_resets:
     new:

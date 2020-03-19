@@ -35,15 +35,17 @@
   <hr>
 
   <div class="row pt-2">
+    <% ['left', 'right'].each do |direction| %>
+     <% selector = select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name) + options_for_select([[t('.comments'), 'c']]), class: "form-control select-#{direction}" %>
     <div class="col-sm-6">
       <% @passages.each do |passage| %>
-        <div class="passage passage-left-<%= passage.edition_id %> d-none">
+        <div class="passage passage-<%= direction %>-<%= passage.edition_id %> d-none">
           <h5>
             <form class="form-inline">
               <span class="mr-2">
                 <%= passage.edition.name %>
               </span>
-              <%= select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name) + options_for_select([[t('.comments'), 'c']]), class: 'form-control select-left' %>
+              <%= selector %>
             </form>
           </h5>
           <p class="reference-passage">
@@ -53,50 +55,19 @@
       <% end %>
 
 
-      <div class="passage passage-left-c d-none">
+      <div class="passage passage-<%= direction %>-c d-none">
         <h5>
           <form class="form-inline">
             <span class="mr-2">
               <%= t('.comments') %>
             </span>
-            <%= select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name) + options_for_select([[t('.comments'), 'c']]), class: 'form-control select-left' %>
+            <%= selector %>
           </form>
         </h5>
         <%= render partial: 'comments' %>
       </div>
     </div>
-
-    <div class="col-sm-6">
-
-      <% @passages.each do |passage| %>
-        <div class="passage passage-right-<%= passage.edition_id %> d-none">
-          <h5>
-            <form class="form-inline">
-              <span class="mr-2">
-                <%= passage.edition.name %>
-              </span>
-              <%= select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name) + options_for_select([[t('.comments'), 'c']]), class: 'form-control select-right' %>
-            </form>
-          </h5>
-          <p class="reference-passage">
-            <%= passage.passage %>
-          </p>
-        </div>
-      <% end %>
-
-      <div class="passage passage-right-c d-none">
-        <h5>
-          <form class="form-inline">
-            <span class="mr-2">
-              <%= t('.comments') %>
-            </span>
-            <%= select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name) + options_for_select([[t('.comments'), 'c']]), class: 'form-control select-right' %>
-          </form>
-        </h5>
-        <%= render partial: 'comments' %>
-      </div>
-
-    </div>
+    <% end %>
   </div>
 </div>
 

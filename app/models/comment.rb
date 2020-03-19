@@ -8,6 +8,7 @@ class Comment < ApplicationRecord
     approved
     pending
     deleted
+    removed
   ]
 
   def user_name

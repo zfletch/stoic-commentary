@@ -30,6 +30,6 @@ class ReferencesController < ApplicationController
   end
 
   def set_comments
-    @comments ||= reference.comments.includes(:user).order(:created_at)
+    @comments ||= reference.comments.approved.includes(:user).order(:created_at)
   end
 end

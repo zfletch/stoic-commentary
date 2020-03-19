@@ -13,6 +13,12 @@ module Authorizable
     redirect_to root_path if current_user
   end
 
+  def require_authentication
+    return if current_user
+
+    redirect_to new_sessions_path, notice: t('authorizable.unauthorized')
+  end
+
   def sign_in(user)
     session[:user_id] = user.id.to_s
   end
