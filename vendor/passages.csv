@@ -1,15 +1,406 @@
-1-1,Greek Unicode,"τῶν ὄντων τὰ μέν ἐστιν ἐφ' ἡμῖν, τὰ δὲ οὐκ ἐφ' ἡμῖν. ἐφ' ἡμῖν μὲν ὑπόληψις, ὁρμή, ὄρεξις, ἔκκλισις καὶ ἑνὶ λόγῳ ὅσα ἡμέτερα ἔργα· οὐκ ἐφ' ἡμῖν δὲ τὸ σῶμα, ἡ κτῆσις, δόξαι, ἀρχαὶ καὶ ἑνὶ λόγῳ ὅσα οὐχ ἡμέτερα ἔργα."
-1-2,Greek Unicode," καὶ τὰ μὲν ἐφ' ἡμῖν ἐστι φύσει ἐλεύθερα, ἀκώλυτα, ἀπαραπόδιστα, τὰ δὲ οὐκ ἐφ' ἡμῖν ἀσθενῆ, δοῦλα, κωλυτά, ἀλλότρια. μέμνησο οὖν, "
-1-3,Greek Unicode," ὅτι, ἐὰν τὰ φύσει δοῦλα ἐλεύθερα οἰηθῇς καὶ τὰ ἀλλότρια ἴδια, ἐμποδισθήσῃ, πενθήσεις, ταραχθήσῃ, μέμψῃ καὶ θεοὺς καὶ ἀνθρώπους, ἐὰν δὲ τὸ σὸν μόνον οἰηθῇς σὸν εἶναι, τὸ δὲ ἀλλότριον, ὥσπερ ἐστίν, ἀλλότριον, οὐδείς σε ἀναγκάσει οὐδέποτε, οὐδείς σε κωλύσει, οὐ μέμψῃ οὐδένα, οὐκ ἐγκαλέσεις τινί, ἄκων πράξεις οὐδὲ ἕν, οὐδείς σε βλάψει, ἐχθρὸν οὐχ ἕξεις, οὐδὲ γὰρ βλαβερόν τι πείσῃ."
-1-1,Higginson English,"There are things which are within our power, and there are things which are beyond our power. Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own. Beyond our power are body, property, reputation, office, and, in one word, whatever are not properly our own affairs."
-1-2,Higginson English,"Now, the things within our power are by nature free, unrestricted, unhindered; but those beyond our power are weak, dependent, restricted, alien. Remember, then"
-1-3,Higginson English,"that if you attribute freedom to things by nature dependent, and take what belongs to others for your own, you will be hindered, you will lament, you will be disturbed, you will find fault both with gods and men. But if you take for your own only that which is your own, and view what belongs to others just as it really is, then no one will ever compel you, no one will restrict you, you will find fault with no one, you will accuse no one, you will do nothing against your will; no one will hurt you, you will not have an enemy, nor will you suffer any harm. "
-1-1,Thurot Notes,"1. Τῶν ὄντων est rapporté par Simplicius seulement à ce qui est en nous et en rapport direct avec nos (περὶ ἡμᾶς) parce qu'autrement il níy aurait pas de proportion entre les deux membres de la dichotomie, si l'univers entier était opposé à l'homme. Mais rien n'indique cette restriction.
-
-2. ἡμέτερα ἔργα, nos opérations, c'est-à-dire les opérations de notre âme.
-
+1-1,Fouillee Commentary,"1. Τῶν ὄντων est rapporté par Simplicius seulement à ce qui est en nous et en rapport direct avec nos (περὶ ἡμᾶς) parce qu'autrement il n’y aurait pas de proportion entre les deux membres de la dichotomie, si l'univers entier était opposé à l'homme. Mais rien n'indique cette restriction.
+2. ἡμέτερα ἔργα, nos opérations, c'est-à-dire les opérations de notre âme. 
 3. δόξαι, ainsi placé entre κτῆσις et ἀρχαὶ, ne peut signifier que témoignages de considération, comme dans Démosthène, de Corona, 80, ἔππινοι, δόξαι, τιμαί, et non, comme l'entend Simplicius, opinion bonne ou mauvaise que les autres ont de nous. "
-1-2,Thurot Notes,None
-1-3,Thurot Notes,"1. οὐδὲ ἕν, sans apostrophe, a la signification de οὐδὲν renforcée, absolument rien.
+1-2,Fouillee Commentary,None
+1-3,Fouillee Commentary,"1. οὐδὲ ἕν, sans apostrophe, a la signification de οὐδὲν renforcée, absolument rien.
+2. ἐχθρὸν οὐχ ἕξεις, tu n’auras pas d’ennemi, parce que le propre d’un ennemi est de nuire."
+1-4,Fouillee Commentary,"1. τηλικούτων, les biens qui’il vient d’énumérer
+2. μετρίως κεκινημένον, avec un mouvement de l’âme modère, c.-à-d. avec tiédeur.
+3. ἅπτεσθαι αὐτῶν, se mettre à les rechercher. Voyez ἅπτεσθαι ἔργου signifiant se mettre à l’œuvre, plus bas, ch. Iv, xxxiv, xxxviii.
+4. τὰ μὲν... τὰ δ(ὲ), certaines choses…d’autres. L’article a, il est vrai, ce sens indéfini, plus ordinairement dans la construction adverbiale ou il répond a en partie, en partie. 
+5. ταῦτ', les biens qu’il a désignés plus haut par τηλικούτων. 
+6. τυχὸν peut-etre 
+7. περιγίνεται, est acquis. 
+8. Il n’est pas question ici des impressions agréables, probablement parce qu’elles sont moins fréquentes. "
+1-5,Fouillee Commentary,"1. μελέτα, exerce-toi.
+2. ἐπιλέγειν, dire a propos de. Voyez plus bas, ch. III, IV, IX, XII, L.
+3. οὐ πάντως, pas tout à fait. La négation porte sur le mot qui la suit immédiatement. Πάντως οὐ signifie nullement (Homère, Il. VI. I, 450, etc.). 
+4. τὸ φαινόμενον, ce que tu représentes. 
+5. τούτῳ…,  πότερον, la règle qui fait reconnaitre si. 
+6. διότι est synonyme de ὅτι, qui sert souvent à annoncer une proposition au style direct. "
+2-1,Fouillee Commentary,"1. ὀρέξεως ἐπαγγελία, ce que le désir annonce qu'il veut, et non promet. Car le désir, qui ne donne pas, ne peut promettre.
+2. ἀποτυγχάνων, sous-entendu οὖ ὸρέγεται
+3. ἀτυχής, manque de bonheur, n'a pas le bien qu'il recherche
+4. περιπίπτων, sous-entendu ᾦ ἐκκλίνει
+5. δυστυχής, malheureux, a le mal qu'il évite."
+2-2,Fouillee Commentary,"1. ἆρον…πάντων τῶν, retire ton aversion de tout ce qui..., c'est à dire cesse de donner pour objet a ton aversion rien de ce qui...
+2. ἐπὶ τοῦ παρόντος, quant à présent. Plus tard, quand tu auras fait des progrès dans la sagesse, tu désireras ce qui est bonnète.
+3. σοι πάρεστι, est à ta portée.
+4. μόνῳ, parce que ὁρμᾶν et ἀφορμᾶν signifient des mouvements de l'amé d'un ordre moins élevé que le désir et l'aversion. Voyez le Lexique. 
+5. μεθ᾽ ὑπεξαιρέσεως, en faisant des réserves, c'est à dire en prévoyant qu'on n'aura pas ce qu'on recherche, ou qu'on tombera dans ce qu'on veut éviter."
+3-1,Fouillee Commentary,"1. Sur la construction du style direct avec ὅτι, voy. plus haut, page 3, note 5. Un peu plus bas, le tour change, et l'auteur passe au style indirect, ὅτι…καταφιλεῖς. 
+2. ἄνθρωπον, un être humain, par conséquent mortel."
+4-1,Fouillee Commentary,"1. Dans les bains publics des anciens, on ne se baignait pas dans des cabinets sépares comme aujourd'hui, mais plutôt comme nous nous baignons au bain froid. 
+2. τοὺς ἀπορραίνοντας, les gens qui vous jettent de l'eau.
+3. τοὺς ἐγκρουομένους, les gens qui vous poussent, vous heurtent. 
+4. on volait souvent des vêtements. 
+5. καὶ signifie et aussi, et en outre, comme plus bas, ch. xiii.
+6. διότι, synonyme de ὅτι, est employé comme plus haut, page 3, note 5, τὸ διὅτι
+7 τὰ γινόμενα, ce qui arrive tous les jours Voyez plus bas, ch. xxvi, τῶν γινομένων ἐστίν et la note 3 de la page 22. "
+5-1,Fouillee Commentary,"1. ἂν ἐφαίνετο, aurait paru. L'imparfait fait ici fonction de l'aoriste ou du plus-que-parfait, comme dans Thucydide, I, 9, 3: οὐκ ἄν οὖν νήσων...ἐκράτει, εἰ μή τι καὶ ναυτικὸν εἶχεν. On sous-entend ici εἴ δεινὸν ἦν.
+2. ἑαυτούς...ἑαυτῶν sont les équivalents de ἡμάς αὐτοὺς, ἡμῶν αὐτῶν. 
+3. ἀπαιδεύτου, celui qui n'est pas instruit dans la philosophie. Voy. Disc. III, 19, 6."
+6-1,Fouillee Commentary,None
+7-1,Fouillee Commentary,"1. καθάπερ ἐν πλῷ...répond a la proposition principale οὕτω καὶ ἐν τῷ βίῳ,. On trouve une comparaison analogue dans Disc. III, 24,33 et 34. L'homme est sous les ordres de la divinité, comme un matelot sous les ordres du pilote. Le matelot, que le pilote a envoyé faire de l'eau, peut ramasser, chemin faisant, un coquillage ou un oignon de jacinthe; mais il doit toujours penser an navire et être prêt à obéir à la voix du pilote. De même l’homme peut prendre femme et élever des enfants; mais il doit être toujours prêt à les quitter, si la divinité le rappelle. S'il est vieux, il ne doit pas s'engager trop avant dans les liens du monde, mariage, affaires, etc.;  autrement il ne pourra plus obéir à la voix de la divinité; il sera moins disposé à quitter les liens ou il est engagé. 
+2. πάρεργον est construit à l'accusatif, comme en apposition a la proposition suivante: tu ramasseras un coquillage ou un oignon: occupation accessoire dans ta route. 
+3. καὶ... καὶ, soit... soit. 
+4. τετάσθαι... δεῖ τὴν διάνοιαν, sous-enté, σέ. Il faut que tu aies l'esprit tendu. 
+5. ἐπιστρέφεσθαι, μή... καλέσῃ, te retourner pour voir si le pilote ne t'appelle pas. Il faut sous-entendre un verbe comme σκοποῦντα.
+6. διδῶται, t'est donne et laisse. Voyez plus bas, ch. xi, μέχρι δ' ἄν διδῷ. 
+7. γυναικάριον, diminutif intraduisible de γυνὴ, qui exprime, comme les diminutifs précédents κοχλίδιον, βολβάριον, que l'objet est de peu de valeur, e ne mérite pas qu'on s'y attache tant. 
+8. κωλύσει, sous-entendu ἔχειν. "
+8-1,Fouillee Commentary,"1. on lit de même dans Disc. I, 12, 45, ἕκαστα οὕτω θέλειν ὡς γίνεται. "
+9-1,Fouillee Commentary,None
+10-1,Fouillee Commentary,"1. ἐπιστρέφων, sous-entendu τὸν νοῦν.
+2. καλήν, sous-enté, ἐγκράτειαν
+3. εὑρήσεις δύναμιν... ἐγκράτειαν, tu trouveras comme faculté... la continence. δύναμιν est construit comme attribut."
+1-1,Thurot Commentary,"1.ὑπόληψις, l'opinion qu'on se fait sur une chose, ce qu’on soupçonne de cette chose. — L'opinion dépend de nous parce que nous pouvons suspendre notre jugement. C’est la théorie de Descartes.
+2.ὁρμή, l'élan de la volonté vers les objets, élan que nous pouvons diriger ou suspendre. C’est quelque chose d'analogue à la motion de Maine de Biran, qui est le commencement de l'exécution volontaire.
+3.ὄρεξις, le désir. Nous pouvons le détourner des choses qui ne dépendent pas de nous, pour le tourner vers celles qui dépendent de nous.
+4.ἔκκλισις, le mouvement par lequel on s'écarte d'un objet, et que la volonté peut encore réprimer. "
+1-2,Thurot Commentary,None
+1-3,Thurot Commentary,"1.Dans ce centre intérieur ou je suis libre rien ne peut m’atteindre, nul ne peut me blesser. Les coups extérieurs ne-portent que sur ma sensibilité passive ; ils ne peuvent modifier ma volonté, qui se modifie seule elle-même. L’homme, en tant que moralement libre, n’a donc point d’ennemi, puisque personne ne peut lui enlever sa liberté morale. L’homme ne peut avoir d’ennemi qu’en tant qu’être sensible, passif, sujet a la douleur, c’est-à-dire en tant qu'il n’est pas vraiment homme. — Belle doctrine, qui montre dans la liberté le lien des hommes et le fondement de l’amitié universelle. Toutefois, est-il absolument vrai que ma liberté morale ne peut être atteinte par les autres hommes? Si l’on m’enlève les moyens, soit d’éclairer intérieurement cette liberté, soit de l'exercer extérieurement, ne porte-t-on pas une atteinte indirecte à ma liberté même?"
+1-4,Thurot Commentary,"1.Vouloir à la fois, comme les Epicuriens et les Péripatéticiens, les biens extérieurs et les biens intérieurs, c'est s'exposer à perdre les premiers eux-mêmes. "
+1-5,Thurot Commentary,"2. V. les Entretiens d'Épictète, lI, Xvi: "
+2-1,Thurot Commentary,None
+2-2,Thurot Commentary,"1.Sous condition «μεθ᾽ ὑπεξαιρέσεως», c’est-à-dire en exceptant de sa volonté les accidents qui peuvent survenir. Les Stoïciens prétendaient que le sage ne doit s’étonner de rien et n'être déçu par aucun événement. Pour qu'il soit libre, il faut que tout ce qui arrive soit accepté et voulu par lui.—Mais si quel- que chose arrive contre son attente et son intention, ne sera-t-il pas déçu? —Pour éviter cette déception, les Stoïciens conseillent de vouloir d’avance les exceptions possibles, et de consentir d’avance au contraire de ce que nous avions voulu. Je veux arriver au port; mais, si je fais naufrage, je consens d’avance à faire naufrage : de cette manière les exceptions elles-mêmes confirmeront la règle."
+3-1,Thurot Commentary,"1.Marc-Auréle, Pensées : « Epictète conseillait à tout père qui baise son enfant de dire tout bas: Tu mourras peut-être demain. — Mais cela est de mauvais augure! — Rien, dit-il, de ce qui signifie une opération naturelle n'est de mauvais augure, car autrement il serait de mauvais augure de parler de la moisson. »
+2.Epictète met presque sur le même rang le vase de terre qui se brise et l’être humain qui meurt. Le vase brisé est le symbole du corps qui se dissout. Mais qu’un vase se brise, il n'y a point la de mal ni d’injustice, car le vase ne renferme point une volonté et n’est point une personne. Au contraire, quand nous voyons mourir ceux que nous aimons, quand toute communication cesse entre notre âme et leur âme, quand leur personnalité semble s‘évanouir avec ses organes, il y a là un mal tout au moins provisoire, un triomphe au moins apparent de la nature fatale sur la volonté libre et aimante. Comment resterions-nous impassibles devant cette brutalité de la matière à l’égard de l’esprit ? Les Stoïciens ne considéraient même pas la séparation causée par la mort comme provisoire, et ils se résignaient à une séparation définitive. Au lieu de supporter ainsi et de s’abstenir, Ieur vrai devoir eut été de protester et de se révolter contre la fatalité de la nature. — Protestation inutile, dira-t-on. — N’importe. Si la justice n’existe pas dans le monde, qu’elle existe au moins dans notre intelligence ; si l'univers écrase le roseau pensant, que le ro- seau à son tour domine ce qui Ie tue en élevant l'idéal au-dessus de la réalité."
+4-1,Thurot Commentary,None
+5-1,Thurot Commentary,None
+6-1,Thurot Commentary,"1.Solon Epictète, nos représentations nous viennent des objets extérieurs par le moyen des sens, et il n’est pas en notre pouvoir de les changer ; mais ce qui est en notre pouvoir, c’est d’en faire un bon ou un mauvais usage, en leur accordant ou en leur refusant notre consentement volontaire (συγκατάθεσις).— Il y a une grande analogie entre cette doctrine et celle de Descartes. Selon ce dernier, l’entendement est passif, la volonté est active; l’entendement reçoit les idées, la volonté accorde ou refuse aux idées son assentiment. L'affirmation, et en conséquence le jugement, sont volontaires. L'erreur vient de ce que la volonté dépasse par ses affirmations la représentation a qu'elle a reçues. L'erreur est déjà un vice, et tout vice est une erreur."
+7-1,Thurot Commentary,"1.Remarquer les ressemblances et les différences de ces doctrines avec celles du christianisme.—St Mathieu, ch. x : « Ne pensez pas que je sois venu apporter la paix sur la terre car je suis venu séparer le fils d'avec le père, la fille d’avec la mère, et la belle-fille d'avec la belle-mère : et l'homme aura pour ennemis ceux de sa propre maison. Celui qui aime son père ou sa mère plus que moi n'est pas digne de moi. » Saint Mathieu, ch. 19 : « En ce temps-là, Pierre dit à Jésus : Voilà que nous vous avons suivi et que nous avons tout quitté : quelle sera donc notre récompense? Jésus leur répondit : …. Quiconque abandonnera pour mon nom sa maison, ou ses frères, on ses sœurs, où son père, ou sa mère, ou sa femme, ou ses enfants, ou ses terres, recevra le centuple, et possédera la vie éternelle. »
+2.Epictète, dans ce chapitre, assimile encore et place sur le mème rang les choses matérielles, dont notre volonté doit être en effet détachée, et les personnes libres, auxquelles nous devons nous attacher librement pour toujours. Le Stoïcien semble considérer comme rien tout ce qui n’est pas sa liberté propre, même les autres libertés; il sent sa valeur, et ne sent pas assez la valeur d'autrui ; il sait se respecter et respecter les autres, il ne sait pas aimer."
+8-1,Thurot Commentary,"1.Descartes a placé une règle analogue dans sa « morale de provision :» — Tâcher plutôt de se vaincre que de vaincre la fortune. — Horace disait aussi avec Aristippe : Non mihi res, sed me rebus subiungere. C’est en vue du plaisir et de l'intérêt qu‘Aristippe se soumet et se plie aux évènements, dans ce jeu de la vie où le plus habile gagne le prix : la volupté. C'est en vue de La liberté que le Stoïcien consent à la fatalité même, dans cette lutte de la vie où le plus fort et le plus patient obtient le plus noble avantage: la dignité."
+9-1,Thurot Commentary,1. V. les Entretiens. 
+10-1,Thurot Commentary,None
+1-1,Greek,"τῶν ὄντων τὰ μέν ἐστιν ἐφ' ἡμῖν, τὰ δὲ οὐκ ἐφ' ἡμῖν. ἐφ' ἡμῖν μὲν ὑπόληψις, ὁρμή, ὄρεξις, ἔκκλισις καὶ ἑνὶ λόγῳ ὅσα ἡμέτερα ἔργα· οὐκ ἐφ' ἡμῖν δὲ τὸ σῶμα, ἡ κτῆσις, δόξαι, ἀρχαὶ καὶ ἑνὶ λόγῳ ὅσα οὐχ ἡμέτερα ἔργα."
+1-2,Greek," καὶ τὰ μὲν ἐφ' ἡμῖν ἐστι φύσει ἐλεύθερα, ἀκώλυτα, ἀπαραπόδιστα, τὰ δὲ οὐκ ἐφ' ἡμῖν ἀσθενῆ, δοῦλα, κωλυτά, ἀλλότρια. μέμνησο οὖν, "
+1-3,Greek," ὅτι, ἐὰν τὰ φύσει δοῦλα ἐλεύθερα οἰηθῇς καὶ τὰ ἀλλότρια ἴδια, ἐμποδισθήσῃ, πενθήσεις, ταραχθήσῃ, μέμψῃ καὶ θεοὺς καὶ ἀνθρώπους, ἐὰν δὲ τὸ σὸν μόνον οἰηθῇς σὸν εἶναι, τὸ δὲ ἀλλότριον, ὥσπερ ἐστίν, ἀλλότριον, οὐδείς σε ἀναγκάσει οὐδέποτε, οὐδείς σε κωλύσει, οὐ μέμψῃ οὐδένα, οὐκ ἐγκαλέσεις τινί, ἄκων πράξεις οὐδὲ ἕν, οὐδείς σε βλάψει, ἐχθρὸν οὐχ ἕξεις, οὐδὲ γὰρ βλαβερόν τι πείσῃ."
+1-4,Greek," τηλικούτων οὖν ἐφιέμενος μέμνησο, ὅτι οὐ δεῖ μετρίως κεκινημένον ἅπτεσθαι αὐτῶν, ἀλλὰ τὰ μὲν ἀφιέναι παντελῶς, τὰ δ' ὑπερτίθεσθαι πρὸς τὸ παρόν. ἐὰν δὲ καὶ ταῦτ' ἐθέλῃς καὶ ἄρχειν καὶ πλουτεῖν, τυχὸν μὲν οὐδ' αὐτῶν τούτων τεύξῃ διὰ τὸ καὶ τῶν προτέρων ἐφίεσθαι, πάντως γε μὴν ἐκείνων ἀποτεύξη, δι' ὧν μόνων ἐλευθερία καὶ εὐδαιμονία περιγίνεται."
+1-5,Greek," εὐθὺς οὖν πάσῃ φαντασίᾳ τραχείᾳ μελέτα ἐπιλέγειν ὅτι ‘φαντασία εἶ καὶ οὐ πάντως τὸ φαινόμενον.’ ἔπειτα ἐξέταζε αὐτὴν καὶ δοκίμαζε τοῖς κανόσι τούτοις οἷς ἔχεις, πρώτῳ δὲ τούτῳ καὶ μάλιστα, πότερον περὶ τὰ ἐφ' ἡμῖν ἐστιν ἣ περὶ τὰ οὐκ ἐφ' ἡμῖν· κἂν περί τι τῶν οὐκ ἐφ' ἡμῖν ᾖ, πρόχειρον ἔστω τὸ διότι ‘οὐδὲν πρὸς ἐμέ’ "
+2-1,Greek,"μέμνησο, ὅτι ὀρέξεως ἐπαγγελία ἐπιτυχία, οὗ ὀρέγῃ, ἐκκλίσεως ἐπαγγελία τὸ μὴ περιπεσεῖν ἐκείνῳ, ὃ ἐκκλίνεται, καὶ ὁ μὲν ἐν ὀρέξει ἀποτυγχάνων ἀτυχής, ὁ δὲ ἐν ἐκκλίσει περιπίπτων δυστυχής. ἂν μὲν οὖν μόνα ἐκκλίνῃς τὰ παρὰ φύσιν τῶν ἐπὶ σοί, οὐδενί, ὧν ἐκκλίνεις, περιπεσῇ· νόσον δ' ἂν ἐκκλίνῃς ἣ θάνατον ἣ πενίαν, δυστυχήσεις. "
+2-2,Greek,"ἆρον οὖν τὴν ἔκκλισιν ἀπὸ πάντων τῶν οὐκ ἐφ' ἡμῖν καὶ μετάθες ἐπὶ τὰ παρὰ φύσιν τῶν ἐφ' ἡμῖν. τὴν ὄρεξιν δὲ παντελῶς ἐπὶ τοῦ παρόντος ἄνελε· ἄν τε γὰρ ὀρέγῃ τῶν οὐκ ἐφ' ἡμῖν τινος, ἀτυχεῖν ἀνάγκη τῶν τε ἐφ' ἡμῖν, ὅσων ὀρέγεσθαι καλὸν ἄν, οὐδὲν οὐδέπω σοι πάρεστι. μόνῳ δὲ τῷ ὁρμᾶν καὶ ἀφορμᾶν χρῶ, κούφως μέντοι καὶ μεθ' ὑπεξαιρέσεως καὶ ἀνειμένως."
+3-1,Greek,"ἐφ' ἑκάστου τῶν ψυχαγωγούντων ἣ χρείαν παρεχόντων ἣ στεργομένων μέμνησο ἐπιλέγειν, ὁποῖόν ἐστιν, ἀπὸ τῶν σμικροτάτων ἀρξάμενος· ἂν χύτραν στέργῃς, ὅτι ‘χύτραν στέργω.’ κατεαγείσης γὰρ αὐτῆς οὐ ταραχθήσῃ· ἂν παιδίον σαυτοῦ καταφιλῇς ἣ γυναῖκα, ὅτι ἄνθρωπον καταφιλεῖς· ἀποθανόντος γὰρ οὐ ταραχθήσῃ."
+4-1,Greek,"ὅταν ἅπτεσθαί τινος ἔργου μέλλῃς, ὑπομίμνῃσκε σεαυτόν, ὁποῖόν ἐστι τὸ ἔργον. ἐὰν λουσόμενος ἀπίῃς, πρόβαλλε σεαυτῷ τὰ γινόμενα ἐν βαλανείῳ, τοὺς ἀπορραίνοντας, τοὺς ἐγκρουομένους, τοὺς λοιδοροῦντας, τοὺς κλέπτοντας. καὶ οὕτως ἀσφαλέστερον ἅψῃ τοῦ ἔργου, ἐὰν ἐπιλέγῃς εὐθὺς ὅτι ‘λούσασθαι θέλω καὶ τὴν ἐμαυτοῦ προαίρεσιν κατὰ φύσιν ἔχουσαν τηρῆσαι.’ καὶ ὡσαύτως ἐφ' ἑκάστου ἔργου. οὕτω γὰρ ἄν τι πρὸς τὸ λούσασθαι γένηται ἐμποδών, πρόχειρον ἔσται διότι ‘ἀλλ' οὐ τοῦτο ἤθελον μόνον, ἀλλὰ καὶ τὴν ἐμαυτοῦ προαίρεσιν κατὰ φύσιν ἔχουσαν τηρῆσαι· οὐ τηρήσω δέ, ἐὰν ἀγανακτῶ πρὸς τὰ γινόμενα.’"
+5-1,Greek,"ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα· οἷον ὁ θάνατος οὐδὲν δεινόν （ἐπεὶ καὶ Σωκράτει ἂν ἐφαίνετο）, ἀλλὰ τὸ δόγμα τὸ περὶ τοῦ θανάτου, διότι δεινόν, ἐκεῖνο τὸ δεινόν ἐστιν. ὅταν οὖν ἐμποδιζώμεθα ἣ ταρασσώμεθα ἣ λυπώμεθα, μηδέποτε ἄλλον αἰτιώμεθα, ἀλλ' ἑαυτούς, τοῦτ' ἔστι τὰ ἑαυτῶν δόγματα. ἀπαιδεύτου ἔργον τὸ ἄλλοις ἐγκαλεῖν, ἐφ' οἷς αὐτὸς πράσσει κακῶς· ἠργμένου παιδεύεσθαι τὸ ἑαυτῷ· πεπαιδευμένου τὸ μήτε ἄλλῳ μήτε ἑαυτῷ."
+6-1,Greek,"ἐπὶ μηδενὶ ἐπαρθῇς ἀλλοτρίῳ προτερήματι. εἰ ὁ ἵππος ἐπαιρόμενος ἔλεγεν ὅτι ‘καλός εἰμι,’ οἰστὸν ἂν ἦν· σὺ δέ, ὅταν λέγῃς ἐπαιρόμενος ὅτι ‘ἵππον καλὸν ἔχω,’ ἴσθι, ὅτι ἐπὶ ἵππου ἀγαθῷ ἐπαίρῃ. τί οὖν ἐστι σόν; χρῆσις φαντασιῶν. ὥσθ', ὅταν ἐν χρήσει φαντασιῶν κατὰ φύσιν σχῇς, τηνικαῦτα ἐπάρθητι· τότε γὰρ ἐπὶ σῷ τινι ἀγαθῷ ἐπαρθήσῃ."
+7-1,Greek,"καθάπερ ἐν πλῷ τοῦ πλοίου καθορμισθέντος εἰ ἐξέλθοις ὑθρεύσασθαι, ὁδοῦ μὲν πάρεργον καὶ κοχλίδιον ἀναλέξῃ καὶ βολβάριον, τετάσθαι δὲ δεῖ τὴν διάνοιαν ἐπὶ τὸ πλοῖον καὶ συνεχῶς ἐπιστρέφεσθαι, μή ποτε ὁ κυβερνήτης καλέσῃ, κἂν καλέσῃ, πάντα ἐκεῖνα ἀφιέναι, ἵνα μὴ δεδεμένος ἐμβληθῇς ὡς τὰ πρόβατα· οὕτω καὶ ἐν τῷ βίῳ, ἐὰν διδῶται ἀντὶ βολβαρίου καὶ κοχλιδίου γυναικάριον καὶ παιδίον, οὐδὲν κωλύσει· ἐὰν δὲ ὁ κυβερνήτης καλέσῃ, τρέχε ἐπὶ τὸ πλοῖον ἀφεὶς ἐκεῖνα ἅπαντα μηδὲ ἐπιστρεφόμενος. ἐὰν δὲ γέρων ᾖς, μηδὲ ἀπαλλαγῇς ποτε τοῦ πλοίου μακράν, μή ποτε καλοῦντος ἐλλίπῃς."
+8-1,Greek,"μὴ ζήτει τὰ γινόμενα γίνεσθαι ὡς θέλεις, ἀλλὰ θέλε τὰ γινόμενα ὡς γίνεται καὶ εὐροήσεις."
+9-1,Greek,"νόσος σώματός ἐστιν ἐμπόδιον, προαιρέσεως δὲ οὔ, ἐὰν μὴ αὐτὴ θέλῃ. χώλανσις σκέλους ἐστὶν ἐμπόδιον, προαιρέσεως δὲ οὔ. καὶ τοῦτο ἐφ' ἑκάστου τῶν ἐμπιπτόντων ἐπίλεγε· εὑρήσεις γὰρ αὐτὸ ἄλλου τινὸς ἐμπόδιον, σὸν δὲ οὔ."
+10-1,Greek,"ἐφ' ἑκάστου τῶν προσπιπτόντων μέμνησο ἐπιστρέφων ἐπὶ σεαυτὸν ζητεῖν, τίνα δύναμιν ἔχεις πρὸς τὴν χρῆσιν αὐτοῦ. ἐὰν καλὸν ἴδῃς ἣ καλήν, εὑρήσεις δύναμιν πρὸς ταῦτα ἐγκράτειαν· ἐὰν πόνος προσφέρηται, εὑρήσεις καρτερίαν· ἂν λοιδορία, εὑρήσεις ἀνεξικακίαν. καὶ οὕτως ἐθιζόμενόν σε οὐ συναρπάσουσιν αἱ φαντασίαι."
+1-1,English,"There are things which are within our power, and there are things which are beyond our power. Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own. Beyond our power are body, property, reputation, office, and, in one word, whatever are not properly our own affairs."
+1-2,English,"Now, the things within our power are by nature free, unrestricted, unhindered; but those beyond our power are weak, dependent, restricted, alien. Remember, then"
+1-3,English,"that if you attribute freedom to things by nature dependent, and take what belongs to others for your own, you will be hindered, you will lament, you will be disturbed, you will find fault both with gods and men. But if you take for your own only that which is your own, and view what belongs to others just as it really is, then no one will ever compel you, no one will restrict you, you will find fault with no one, you will accuse no one, you will do nothing against your will; no one will hurt you, you will not have an enemy, nor will you suffer any harm. "
+1-4,English,"Aiming therefore at such great things, remember that you must not allow yourself any inclination, however slight, towards the attainment of the others; but that you must entirely quit some of them, and for the present postpone the rest. But if you would have these, and possess power and wealth likewise, you may miss the latter in seeking the former; and you will certainly fail of that by which alone happiness and freedom are procured."
+1-5,English,"Seek at once, therefore, to be able to say to every unpleasing semblance, "" You are but a semblance and by no means the real thing."" And then examine it by those rules which you have; and first and chiefly, by this: whether it concerns the things which are within our own power, or those which are not; and if it concerns anything beyond our power, be prepared to say that it is nothing to you."
+2-1,English,"Remember that desire demands the attainment of that of which you are desirous; and aversion demands the avoidance of that to which you are averse; that he who fails of the object of his desires is disappointed; and he who incurs the object of his aversion is wretched. If, then, you shun only those undesirable things which you can control, you will never incur anything which you shun; but if you shun sickness, or death, or poverty, you will run the risk of wretchedness. "
+2-2,English,"Remove [the habit of] aversion, then, from all things that are not within our power, and apply it to things undesirable, which are within our power. But for the present altogether restrain desire; for if you desire any of the things not within our own power, you must necessarily be disappointed; and you are not yet secure of those which are within our power, and so are legitimate objects of desire. Where it is practically necessary for you to pursue or avoid anything, do even this with discretion, and gentleness, and moderation."
+3-1,English,"With regard to whatever objects either delight the mind, or contribute to use, or are tenderly beloved, remind yourself of what nature they are, beginning with the merest trifles: if you have a favorite cup, that it is but a cup of which you are fond, - for thus, if it is broken, you can bear it; if you embrace your child, or your wife, that you embrace a mortal, - and thus, if either of them dies, you can bear it."
+4-1,English,"When you set about any action, remind yourself of what nature the action is. If you are going to bathe, represent to yourself the incidents usual in the bath, - some persons pouring out, others pushing in, others scolding, others pilfering. And thus you will more safely go about this action, if you say to yourself, "" I will now go to bathe, and keep my own will [p. 2218] in harmony with nature."" And so with regard to every other action. For thus, if any impediment arises in bathing, you will be able to say, ""It was not only to bathe that I desired, but to keep my will in harmony with nature; and I shall not keep it thus, if I am out of humor at things that happen."""
+5-1,English,"Men are disturbed not by things, but by the views which they take of things. Thus death is nothing terrible, else it would have appeared so to Socrates. But the terror consists in our notion of death, that it is terrible. When, therefore, we are hindered, or disturbed, or grieved, let us never impute it to others, but to ourselves; that is, to our own views. It is the action of an uninstructed person to reproach others for his own misfortunes; of one entering upon instruction, to reproach himself; and of one perfectly instructed, to reproach neither others nor himself."
+6-1,English,"Solon Epictète, nos représentations nous viennent des objets extérieurs par le moyen des sens, et il n’est pas en notre pouvoir de les changer ; mais ce qui est en notre pouvoir, c’est d’en faire un bon ou un mauvais usage, en leur accordant ou en leur refusant notre consentement volontaire (sugkata/qesis). Il y a une grande analogie entre cette doctrine et celle de Descartes. Selon ce dernier, l’entendement est passif, la volonté est active; l’entendement reçoit les idées, la volonté accorde ou refuse aux idées son assentiment. L'affirmation, et en conséquence le jugement, sont volontaires. L'erreur vient de ce que la volonté dépasse par ses affirmations la représentation a qu'elle a reçues. L'erreur est déjà un vice, et tout vice est une erreur."
+7-1,English,"As in a voyage, when the ship is at anchor, if you go on shore to get water, you may amuse yourself with picking up a shell-fish or a truffle in your way, but your thoughts ought to be bent towards the ship, and perpetually attentive, lest the captain should call, and then you must leave all these things, that you may not have to be carried on board the vessel, bound like a sheep; thus likewise in life, if, instead of a truffle or shell-fish, such a thing as a wife or a child be granted you, there is no objection; but if the captain calls, run to the ship, leave all these things, and never look behind. But if you are old, never go far from the ship, lest you should be missing when called for."
+8-1,English,"Demand not that events should happen as you wish; but wish them to happen as they do happen, and you will go on well."
+9-1,English,"Sickness is an impediment to the body, but not to the will, unless itself pleases. Lameness is an impediment to the leg, but not to the will; and say this to yourself with regard to everything that happens. For you will find it to be an impediment to something else, but not truly to yourself."
+10-1,English,"Upon every accident, remember to turn towards yourself and inquire what faculty you have for its use. If you encounter a handsome person, you will find continence the faculty needed; if pain, then fortitude; if reviling, then patience. And when thus habituated, the phenomena of existence will not overwhelm you."
+1-1,DCC Notes,"τῶν ὄντων: “of existent things” or “of things which exist”; to Stoics, for something to exist it must be corporeal. The Stoics even considered the soul corporeal (albeit of very refined πνεῦμα), which earlier philosophers regarded as incorporeal. The only incorporeals which they admitted were place, void, time, and the λεκτόν (lekton, pl. lekta), a “sayable,” which includes everything from a subject or predicate to statements.
+τὰ μέν ἐστιν: a neut. pl. subject, regarded as a collective or singular idea, takes a singular verb (G. 496; S. 958).
+ἐφ᾽ἡμῖν: “in or under our control,” “up to us,” a phrase that recurs frequently in this work (LSJ ἐπί B.I.g)
+ὅσα ... ἔργα: supply ἐστι for both clauses ending with ἔργα.
+ὁρμή: “impulse” is directed toward τὰ καθήκοντα (“appropriate actions”). See Introduction, Positive and Negative Impulse.
+ὄρεξις: “desire” is directed toward the good or a supposed good.
+ἔκκλισις: “aversion” is the avoidance of an evil or a supposed evil.
+ἑνί λόγῳ: “in a word,” “in short”
+δόξαι: “reputation,” “the opinion which others have of you,” usually good, so the meaning shades into “honor,” “glory” (LSJ δόξα III).
+ἀρχαί: “political offices,” “magistracies,” (LSJ ἀρχή II.3) things highly coveted by members of the Roman elite."
+1-2,DCC Notes,"φύσει: “by nature.” The goal of the Stoics is to live in harmony with nature. For the Stoics, nature refers to the universe rationally ordered and guided by the Stoic god. Humans’ place in the universe is to play the part of a rational moral being. Thus, in most respects the natures of man and the universe coincide. When Epictetus here says that things which are in our control are free by nature, he implies that the divinity has ordained this for us.
+ἐλεύθερα, ἀκώλυτα, ἀπαραπόδιστα: the last two adjectives show that the Stoic concept of freedom involves freedom from obstruction, but for the Stoics freedom also allows you to do things that are in your power. Thus, freedom for the Stoics encompasses both freedom to and freedom from, two important ways in which freedom is understood. Long (2018, xvi–xx) points out how innovative this philosophical position is. True freedom is internal, as opposed to the external political/societal freedom of free citizens and slaves. From the Stoic viewpoint, a free citizen can be enslaved to passions, while a slave can be free from them."
+1-3,DCC Notes,"μέμνησο: > μιμνήσκω, 2 sg. perf. mid. imper. The form recurs frequently in this work.
+οἰηθῇς: > οἴομαι, 2 sg. aor. dep. subj. in the protasis of a future more vivid condition (G. 650; S. 2291.3a).
+ἐμποδισθήσῃ and ταραχθήσῃ: 2 sg. fut. pass. ind., beginning the apodosis of the condition.
+μέμψῃ: 2 sg. fut. dep. ind.
+καὶ θεοὺς καὶ ἀνθρώπους: “both … and …”
+τό ... ἀλλότριον: supply οἰηθῇς and εἶναι.
+οὐδείς …. οὐδέποτε: after οὐ, alone or in composition, a compound of οὐ repeats and strengthens the negation, rather than turning it into a positive. “no one will ever ...”; so also with οὐ μέμψῃ οὐδένα below (G. 487; S. 2761).
+τινί: “anyone,” dat. object of ἐγκαλέσεις.
+οὐδὲ ἕν: = “not (even) one thing.”
+πείσῃ: > πάσχω, 2 sg. fut. mid. ind."
+1-4,DCC Notes,"τηλικούτων … ἐφιέμενος: the participle is causal: “since you desire such great things,” “given that you have such lofty aims.” The reference is to “the things in your control” discussed in the previous section.
+οὐ δεῖ: “it is necessary that ... not.” The negative goes with μετρίως κεκινημένον ἅπτεσθαι (S. 2693 and 2714b).
+οὐ ... μετρίως κεκινημένον: “moved not in a moderate way,” i.e., “not half-heartedly” κεκινημένον is perf. mid. part., acc. masc. sing., with an implied σε as the antecedent.
+αὐτῶν: “those things,” referring to τηλικούτων, which in turn refers to “things in your control.”
+τὰ μὲν … τὰ δὲ: “some things … other things,” referring to worldly aims like wealth and political power.
+ἀφιέναι παντελῶς … ὑπερτίθεσθαι πρὸς τὸ παρόν: ἀφιέναι and ὑπερτίθεσθαι are infinitives dependent on δεῖ.
+καὶ ταῦτα … καὶ ἄρχειν καὶ πλουτεῖν: “both these things (things in your control) and political power and wealth”; the emphasis is on καὶ … καὶ.
+θέλῃς: 2 sg. pres. act. subj. in a future more vivid condition (G. 650; S. 2291.3a). θέλω is a form of ἐθέλω that appears as early as Homer and is regularly employed in later Greek writers such as Epictetus, except when the verb is augmented, e.g. ἤθελον.
+τυχόν: adverbial, “perhaps, by chance, probably”
+αὐτῶν τούτων: “these very things,” i.e., wealth and political power
+τεύξῃ: > τυγχάνω, 2 sg. fut. mid. ind. “obtain” + gen.
+τῶν προτέρων: “the former things,” i.e., things in your control
+τὸ … ἐφίεσθαι: art. infin., best translated as a gerund: “aiming” (G. 574–575; S. 2025). τὸ ἐφίεσθαι is the object of διά: “through (because of) also (καί) aiming at the former (things).”
+πάντως γε μὴν … ἀποτεύξῃ: “but you will certainly fail to obtain.” γε μὴν creates an emphatic contrast with preceding μέν clause. See Denniston (1954, 347–348). ἀποτεύξῃ: > ἀποτυγχάνω, 2 sg. fut. mid. ind.
+ἐκείνων … δι' ὧν μόνων: “those things (things in your control) through which alone”"
+1-5,DCC Notes," Epictetus ends this opening chapter by encouraging you to evaluate your impressions (φαντασίαι) to determine whether they are about things under your control or not. Epictetus tells us that we must practice this (μελετᾶν; the noun form is μελέτη; elsewhere he speaks of this practice as ἄσκησις). For more on these concepts, see the Introduction, Assent.
+μελέτα: > μελετάω, 2 sg. pres. act. imper. Note the accent; for the imperative, the accent falls on the penult: μελέτα+ε = μελέτα; for 3 sg. ind., the circumflex would appear on the ultima with the iota subscript: μελετά- + ει = μελετᾷ (G. 313; S. 53 and 385).
+φαντασία: “impression”: The term covers not only our perceptions (“Here is money”), but also judgments about the perceptions (“Money is a good thing” and “One should pursue money.”) If someone assents (συγκατατίθεσθαι) to the latter judgment (the expression of a desire), then it will generate an impulse, and the person will act on this desire. For more on impressions, see the Introduction, Assent.
+οὐ πάντως τὸ φαινόμενον: “not at all what you appear to be” (LSJ φαίνομαι II).
+τοῖς κανόσι τούτοις οἷς ἔχεις: “with these rules which you have.” Here, as often, the relative pronoun has been attracted into the case of its antecedent (κανόσι > κανών). If the relative had not been attracted into the case of the antecedent, the phrase would read: τοῖς κανόσι οὓς ἔχεις. It is especially common for the accusative case to be attracted into the genitive or dative (G. 613b; S. 2522).
+κἄν: = καί + ἐάν (“and if” or “even if”), a very common contraction in this work
+ᾖ: > εἰμί, 3 sg. pres. act. subj. in a conditional + imperative construction.
+ἔστω: > εἰμί, 3 sg. pres. act. imper.
+τό διότι: “the reason/statement that”
+πρόχειρον ... ἐμέ: (literally) “let the statement be at hand that it (the presentation) is nothing to me.” That is, “be ready to recognize that it has nothing to do with you” (Smith 2014)."
+2-1,DCC Notes,"μέμνησο: : > μιμνήσκω, 2 sg. perf. mid. imper
+τὸ ἐπιτυχεῖν … τὸ μὴ … περιπεσεῖν: articular infinitives (G. 574–575; S. 2025).
+ὀρέγῃ: > ὀρέγω,  2 sg. pres. mid. ind. The antecedent of the relative οὗ has been omitted (S. 2509): “(that) which.” It is common for the antecedent to be omitted if it is a demonstrative pronoun.
+ἀτυχής ... δυστυχής: “unfortunate” ... “misfortunate.” The distinction is obscure, but Long (2018) may be right in translating these words as “unfortunate” and “miserable” respectively, implying that there are degrees of misfortune; encountering what you do not want is worse than not obtaining what you want. However, such a distinction can only be from the viewpoint of the non-philosopher in relation to things outside his control.
+ἂν: a contracted form of ἐάν, “if” (long alpha), commonly seen in Plato. Not to be confused with the more common modal particle ἄν (short alpha) used with potential optatives, contrafactual conditionals, etc. (see LSJ ἄν at the very end of the entry, and ἐάν).
+ἐκκλίνῃς: > ἐκκλίνω, 2 sg. pres. act. subj. in a future more vivid condition introduced by ἂν (“if”) (G. 650; S. 2291.3a).
+τὰ παρὰ φύσιν τῶν ἐπὶ σοί: “what is unnatural among those things that are under your control,” (Oldfather 1928);  “those undesirable conditions that are up to us” (Smith 2014).
+οὐδενὶ ὧν: the relative is attracted into the case of the omitted antecedent. One might expect οὐδενὶ ἐκείνων ἃ (“nothing of thοse [things] which”) but the general antecedent must be supplied here from context. It is very common for the antecedent to be omitted if it is a demonstrative pronoun (G. 613.b and 614; S. 2522 and 2509). Compare 1.5 where attraction of the relative pronoun occurs, and the antecedent is present (τοῖς κανόσι οἷς ἔχεις).
+περιπεσῇ: > περιπίπτω, 2 sg. fut. mid. ind."
+2-2,DCC Notes,"ἆρον: > αἴρω, 2 sg. aor. act. imper., “remove”; first aorist with the sigma dropping out after the liquid (G. 328; S. 544c).
+ἐπὶ τοῦ παρόντος: “for the present,” “for the time being” (LSJ πάρειμι [εἰμί sum] II)
+ἄνελε: > ἀναιρέω, 2 sg. aor. act. imper., “remove,” “put off,” “suspend.” Since desiring what is right is the most important element of Stoic ethics, Epictetus here advises that students put off or suspend desire until they have established a firm understanding and foundation of what is good. Cf. Diss. 3.12.8, where Epictetus maintains that the one in training (ἀσκητής) not employ his desire, and use his aversion toward things which are in his volition, i.e., under his control. Cf. also Diss. 1.4.1. Apparently, it is easier for students to know what to avoid.
+ὀρέγῃ: > ὀρέγω, 2 sg. pres. mid. subj. in a conditional + imperative construction. Here ἀτυχεῖν ἀνάγκη is equivalent to the imperative.
 
-2. ἐχθρὸν οὐχ ἕξεις, tu níauras pas díennemi, parce que le propre d'un ennemi est de nuire."
+τῶν τε ἐφ᾿ἡμῖν ... πάρεστι: a clearer word order would be: οὐδὲν τῶν τε ἐφ' ἡμῖν, ὅσων ὀρέγεσθαι καλὸν ἄν (sc. εἴη), οὐδέπω σοι πάρεστι, “none of the things that are up to us, and which it would be proper to desire, is yet within your reach” (Smith 2014). πάρεστι: see LSJ πάρειμι [εἰμί sum] II. The infinitive ὀρέγεσθαι explains the adjective καλόν (S. 2001 and 2002).
+τῷ ὁρμᾶν καὶ ἀφορμᾶν: “use only positive and negative impulses.” The articular infinitives are objects of χρῶ (> χράομαι, 2 sg. pres. mid. imper.), which takes a dative. Since the true Stoic “desire”—goodness of character—is not yet within the grasp of beginning students, they must for now rely on “impulses” regarding what it is reasonable to aim at in the external sphere, where the outcome is not “up to us.” (Smith 2014)
+μεθ' ὑπεξαιρέσεως: “with reservation.” One should perform appropriate action (the object of impulse) with the knowledge that it may not be fulfilled. For example, one may love one’s spouse or child and act in such a way to ensure a long and healthy life for them, all while knowing that they are mortal and thus subject to death and disease. See the next chapter for more on this."
+3-1,DCC Notes,"Ἐφ' ἑκάστου τῶν ψυχαγωγούντων: “in the case of each of the things that attract you”
+μέμνησο: > μιμνήσκω, 2 sg. perf. mid. imper.
+ἀπὸ τῶν σμικροτάτων ἀρξάμενος: “starting with the smallest things.” In Attic prose, the middle of ἄρχω is more frequent, especially where personal action is emphasized. In Diss. 3.24.84 Epictetus suggests that we practice from morning to night, evaluating all things that we love or find useful, starting from the smallest things (the first example being a pot). σμικροτάτων = μικροτάτων, the superlative of μικρός -ά -όν
+ἂν ... στέργῃς: “if you love.” ἂν = ἐάν. στέργῃς: 2 sg. pres. act. subj. in a generalized proposition followed by an imperative, one of the most characteristic types of sentences in Epictetus. While this construction might be termed a “present general” or “future more vivid” condition, for Epictetus the temporal aspect is less important than the atemporal moral situation or role. The sequence of thought is “if x (non-specific) happens or is the case, then do y.” I refer to this construction as “conditional + imperative.” Supply μέμνησο ἐπιλέγειν as the imperative of the apodosis. Frequently στέργω refers to the mutual love of parents and children, less often to that of husband and wife.
+καταγείσης: > κατάγνυμι, aor. pass. part. in a genitive absolute (G. 589–590; S. 2070), functioning as a conditional: “if (or when) the pot breaks.”
+ταραχθήσῃ: > ταράσσω, 2 sg. fut. pass. ind.
+καταφιλῇς: > καταφιλέω, 2 sg. pres. act. subj. in a conditional + imperative construction.
+ὅτι ἄνθρωπον καταφιλεῖς: supply μέμνησο ἐπιλέγειν before ὅτι.
+ἀποθανόντος: > ἀποθνήσκω, aor. pass. part. in a genitive absolute (G. 589–590; S. 2070). The masculine participle is functioning generically and can refer to either the wife or child under consideration (S. 1015). The clause functions as the protasis of a future more vivid condition."
+4-1,DCC Notes,"μέλλῃς: > μέλλω, 2 sg. pres. act. subj. in a conditional + imperative construction
+λουσόμενος: > λούω, fut. mid. part. expressing purpose, after verbs meaning to “send,” “go,” “come,” etc. (G. 583.b; S. 2065).
+ἀπίῃς: “go off (to)” > ἄπειμι, 2 sg. pres. act. subj. in a conditional + imperative construction. See LSJ ἄπειμι (B), (εἶμι ibo).
+τὰ γινόμενα: in Koine Greek and Epictetus, γἰνομαι is the regular form for the classical γίγνομαι.
+
+ἀσφαλέστερον: comparative adv. = “more safely” (G. 234; S. 345).
+ἅψῃ: > ἅπτω, 2 sg. fut. mid. ind
+ἐπιλέγῃς: > ἐπιλέγω, 2 sg. pres. act. subj. in a future more vivid condition (G. 650; S. 2291.3a).
+θέλω καὶ τὴν ἐμαυτοῦ προαίρεσιν κατὰ φύσιν ἔχουσαν τηρῆσαι: (literally) “I also wish to preserve my volition holding in accord with nature.” Volition (prohaeresis) is a key term in Epictetus’ philosophical outlook. Volition is what persons are in terms of their mental faculties, consciousness, character, judgment, goals, and desires. You and I are not our bodies; rather we, our essential selves, are our volitions. The sentence might be paraphrased, “I want to bathe and stay true to myself.” (Smith 2014). Cf. Diss. 2.2-2, 3.4.9 and 3.6.3. κατὰ φύσιν ἔχουσαν: recall that ἔχω + adverb indicates a state of being (ἔχω καλῶς = “I am well”). The prepositional phrase is here equivalent to an adverb. The phrase appears again in ch. 13.1 with φυλάξαι as the verb in place of τηρῆσαι.
+θέλω: θέλω is the regular form of ἐθέλω that appears in Epictetus, except when the verb is augmented (see ἤθελον below).
+προαίρεσιν: see Introduction, Assent.
+ἄν: = ἐάν
+τὸ λούσασθαι: art. infin. (G. 574–575; S. 2025) here functioning as the object of the preposition πρός.
+πρόχειρον ἔσται: “it will be easy (for you to respond).” Cf. Ch. 1.5.
+οὐ μόνον ... ἀλλὰ καί: “not only…but also.”
+ἀγανακτῶ: > ἀγανακτέω, 1 sg. pres. act. subj. in a future more vivid condition (G. 650; S. 2291.3a)"
+5-1,DCC Notes,"ταράσσει: the neuter plural subject (τὰ πράγματα) takes a singular verb, as usual (G. 496; S. 958).
+τὰ περὶ ... δόγματα: supply ταράσσει from the previous clause. Dogmata is another key term: our opinions and assessments about life, goodness, badness, etc., which condition all our mental states, including all emotions (Smith 2014, 94 n. 6).
+ἐπεὶ καὶ Σωκράτει ἂν ἐφαίνετο: unfulfilled possibility, “since it would also (καὶ) have appeared (so) to Socrates.” The protasis is implied: “if death were terrible.” Note that the imperfect indicative can be used to denote an unfulfilled action in the present or, as here, in the past (G. 649; S. 2292.1).
+Σωκράτης: on Socrates’ significant influence on the Stoics and Epictetus, see the Introduction, Predecessors.
+ἐμποδιζώμεθα ... ταρασσώμεθα ... λυπώμεθα: 1 pl. pres. pass. subj. in a temporal clause, equivalent to a conditional + imperative construction
+αἰτιώμεθα: > αἰτιάομαι, 1 pl. pres. mid. subj.; hortatory subj. (G. 472; S. 1797) with μή as the negative (here μηδέποτε): “let us never blame,” “we must never blame.”
+ἑαυτούς, ἑαυτῶν: Epictetus at times uses the third plural reflexive form of the pronoun where we would expect first person pronouns (S. 1230). Translate “ourselves” and “our” for the sake of consistency in English.
+τουτέστι: “that is,” “that is to say”
+ἔργον τὸ ἄλλοις ἐγκαλεῖν: supply ἐστί. τὸ ... ἐγκαλεῖν: articular infinitive (G. 574–575; S. 2025): “blaming others is the act.”
+ἐφ' οἷς: “at times which,” i.e “when.” The antecedent has been omitted (G. 614; S. 2509).
+ἠργμένου: > ἄρχω, perf. mid. part., gen. masc. sg. “of one beginning” (philophical studies).
+πεπαιδευμένου: perf. mid./pass part.; “of the one who has been educated” = “of the one who has assimilated the philosophical principles.”
+τὸ ἑαυτῷ ... τὸ μήτε ἄλλῳ μήτε ἑαυτῷ: supply ἐγκαλεῖν from the previous sentence, and ἔργον ἐστί as the predicate in both clauses: “blaming oneself is the act of (one) beginning to be educated, etc.”"
+6-1,DCC Notes,"ἐπαρθῇς: > ἐπαίρω, 2 sg. aor. pass. subj. in a prohibition with μή as the negative (here the negative appears in ἐπὶ μηδενὶ . . . προτερήματι (G. 473; S. 1840).
+εἰ ὁ ἵππος ... ἔλεγεν, ... οἱστον ἅν ἧν: present contrary to fact condition (G. 649; S. 2292.1)
+λέγῃς: > λέγω, 2 sg. pres. act. subj. in a temporal clause, equivalent to conditional + imperative construction
+ἴσθι: > οἷδα, 2 sg. pres. act. imper.
+ἐπαίρῃ: > ἐπαίρω, 2 sg. pres. pass. ind.
+ὥσθ’: τ becomes θ before a vowel with a rough breathing. ὥστε is here being used at the beginning of the sentence to denote a firm conclusion or inference: “and so,” “therefore” (LSJ ὥστε II.2).
+κατὰ φύσιν σχῇς: > ἔχω, “stay in accordance with nature.” σχῇς: 2 sg. aor. act. subj. in its adverbial use (see 4.1 κατὰ φύσιν ἔχουσαν with note).
+ἐπάρθητι: > ἐπαίρω, “be proud,” 2 sg. aor. pass. imper.
+ἐπαρθήσῃ: > ἐπαίρω, 2 sg. fut. pass. ind."
+7-1,DCC Notes,"τοῦ πλοίου καθορμισθέντος: gen. absolute; καθορμισθέντος > καθορμίζω, aorist passive participle
+ὁδοῦ ... πάρεργον: “as a secondary part of your trip” (Smith 2014); πάρεργον is a neuter noun in apposition to the main clause.
+ἀναλέξῃ: > ἀναλέγω, 2 sg. fut. mid. ind. “collect.”
+τετάσθαι ... τὴν διάνοιαν ἐπὶ: “keep your attention directed toward”; τετάσθαι, > τείνω, perf. mid. infint
+καλέσῃ: > καλέω, 3 sg. aor. act. subj. in a clause after an implied verb of fearing (G. 610 and 611b; S. 2225): “you must continuously turn around (fearing) that . . . .” Recall that in fear clauses, μή expresses a positive fear that something will happen, while μή οὐ expresses a negative fear that something will not happen.
+κἂν καλέσῃ: 3 sg. aor. act. subj. in a conditional + imperative construction
+ἀφιέναι: > ἀφίημι, pres. act. infin., which depends on δεῖ in line 2.
+ἵνα μὴ δεδεμένος ἐμβληθῇς: “so that you won’t be tied up and thrown in (the ship).” δεδεμένος > δέω perf. pass. part. nom. masc. sg. ἐμβληθῇς > ἐμβάλλω, 2 sg. aor. pass. subj. in a purpose clause (G. 641; S. 2196). As observed in the poem of Cleanthes cited in ch. 53, if you do not want to play your role, you will nevertheless be compelled to do so.
+διδῶται: > δίδωμι, 3 sg. pres. pass. subj. in a future more vivid condition (G. 650; S. 2291.3a)
+οὐδὲν κωλύσει: “nothing will prevent (you from enjoying them).”
+καλέσῃ: 3 sg. aor. act. subj. in a conditional + imperative construction.
+ᾖς: > εἰμί, 2 sg. pres. act. subj. in a conditional + imperative construction.
+μηδὲ ἀπαλλαγῇς: > ἀπαλλάσσω, 2 sg. aor. pass. subj. in a prohibition (G. 473; S. 1840); μηδέ is here used absolutely, to negate the verb ἀπαλλαγῇς, and not to coordinate two clauses.
+μακράν: “far,” adv. acc. (G. 540; S. 1608)
+καλοῦντος: gen. absolute (G. 589; S. 2070); supply κυβερνήτου as subject.
+μή ... ἐλλίπῃς: > ἐλλείπω, 2 sg. aor. act. subj. in a clause after an implied verb of fearing: “lest you fall short,” i.e., be left behind (G. 610 and 611b; S. 2225)"
+8-1,DCC Notes,"ζήτει: > ζητέω, 2 sg. pres. act. imper. Note that the accent for the imperative falls on the penult: ζήτε + ε = ζήτει. If this were a 3 sg., the circumflex would appear on the ultima, ζητέ + ει = ζητεῖ.
+τὰ γινόμενα γίνεσθαι: in Koine Greek and in Epictetus, γίνομαι is the regular form for the classical γίγνομαι.
+θέλεις ... θέλε: θέλω (rather than ἐθέλω) is the regular form in Epictetus, except when the verb is augmented.
+θέλε τὰ γινόμενα ὡς γίνεται: supply γίνεσθαι from the previous clause. γίνεται is singular following the implied neuter plural τὰ γινόμενα (G. 496; S. 958).
+εὐροήσεις: the early Stoics regarded εὐδαιμονία (happiness, human flourishing) as a virtuous life, a life consistent with itself, and thus it would have a smooth flow (εὔροια). Cf. Stobaeus, 2.77 (L-S 1.63A): εὐδαιμονία δ’ ἐστὶν εὔροια βίου (Sextus Empiricus 11.30), Diss. 1.4.27, Marcus Aurelius 2-5, 5.9, 10.6 and Diogenes Laertius 7.87–88."
+9-1,DCC Notes,"ἐμπόδιον: “an impediment,” “hindance” (to your body)
+ἐὰν μή: “unless” (+ subj.)
+αὐτὴ: refers back to προαιρέσεως.
+θέλῃ: > ἐθέλω, 3 sg. pres. act. subj. in a present general condition (G. 650; S. 2295.1)
+ἐμπιπτόντων: “of what has happened to you”
+εὑρήσεις γὰρ αὐτὸ ἄλλου τινὸς ἐμπόδιον: sc. εἶναι"
+10-1,DCC Notes,"ἐφ' ἑκάστου: “in each case”; See ch. 3 for the same phrase.
+προσπιπτόντων: “of what has happened to you”; see ἐμπιπτόντων in the previous chapter.
+μέμνησο: > μιμνήσκω, 2 sg. perf. mid. imper.
+πρὸς τὴν χρῆσιν αὐτοῦ: “toward the use of it,” i.e.,“to deal with it”
+καλὸν ... ἢ καλήν: “a good-looking man or woman.” ταῦτα in the next clause refers back to them.
+ἴδῃς: > ὁράω, 2 sg. aor. act. subj. in a future more vivid condition (G. 650; S. 2291.3a)   
+προσφέρηται: > προσφέρω, “is presented,” “approaches,” “attacks” (LSJ προσφέρω B.), 3rd sg. pres. pass. subj. in a future more vivid condition (G. 650; S. 2291.3a)
+ἄν: ἐάν
+οὕτως ἐθιζόμενόν σε: “you so accustomed,” i.e. “if/when you have accustomed yourself [middle voice] to think in this way.” The participle (ἐθιζόμενόν) is equivalent to a conditional or temporal clause.
+σε οὐ συναρπάσουσιν αἱ φαντασίαι: if the φαντασίαι are not κατὰ φύσιν, then they will carry you away into passion and enslavement. Variations of this phraseology recur in ch. 16.1, 18.1, 19.2 and 20.1."
+1-1,DCC Vocab,"ὑπόληψις, -εως, ἡ: opinion, assumption
+ὁρμή, -ῆς, ἡ, impulse
+ὄρεξις, -εως, ἡ, desire
+ἔκκλισις, -εως, ἡ, aversion, avoidance
+κτῆσις, -εως, ἡ, possession, property, property
+δόξα,-ης, ἡ, opinion; reputation"
+1-2,DCC Vocab,"ἀκώλυτος, -ον, unhindered
+ἀπαραπόδιστος, -ον, unimpeded, unobstructed
+ἀσθενής, -ές, weak, powerless
+δοῦλος, -η, -ον, slavish, servile
+κωλυτός, -ή, -όν, hindered
+ἀλλότριος, -α, -ον, not one's own, under the control of others"
+1-3,DCC Vocab,"ἐμποδίζω, -ποδιῶ, -επόδισε, to hinder, frustrate
+πενθέω, -ήσω, ἐπένθησα, to mourn, to suffer pain
+ταράσσω, ταράξω, ἐτάραξα, to trouble, disturb
+μέμφομαι, μέμψομαι, ἐμέμφθην, to blame
+ἀναγκάζω, -άσω, to force, constrain
+οὐδέποτε, not ever, never
+ἐγκαλέω, ἐγκαλῶ, ἐνεκάλεσα, to rebuke, reproach + dat.
+ἄκων, -ουσα, -ον, involuntarily, against one’s will
+βλάπτω, βλάψω, ἔβλαψα, to harm, hinder, disable
+βλαβερός, -ά, -όν, harmful"
+1-4,DCC Vocab,"τηλικοῦτος, -αύτη, -οῦτον, such great
+ἐφίημι, ἐφήσω, ἐφῆκα, to aim at, to long for, desire + gen.
+μετρίως, (adv.) moderately
+ἅπτω, ἅψω, ἥψα, to grasp, obtain, engage in, undertake (+ gen)
+παντελῶς, (adv.) absolutely, completely 
+ὑπερτίθημι, ὑπερθήσω, ὑπερέθηκα, to defer, put off
+πλουτέω, -ήσω, ἐπλούτησα, be rich or wealthy
+ἀποτυγχάνω, ἀποτεύξομαι, ἀπέτυχον, to fail in attaining, miss
+ἐλευθερία, -ας, ἡ freedom
+εὐδαιμονία, -ας, ἡ, prosperity; true, full happiness
+περιγίγνομαι, περιγενήσομαι, περεγενόμην, to be a result or consequence, to arise"
+1-5,DCC Vocab,"φαντασία,-ας, ἡ, impression, appearance, perception
+τραχύς, -εῖα, -ύ, rough, harsh
+μελετάω, -ήσω, to practice, pursue, exercise
+ἐπιλέγω, -λέξω, -ελεξα, to say in addition
+ἐξετάζω, ἐξετάσω, ἐξήτασα, to examine closely
+δοκιμάζω, -άσω, ἐδοκίμασα, to test, put to the test, make trial of, scrutinize
+κανών, -όνος, ὁ, standard, criterion
+πρόχειρος, -ον, at hand, readily accessible
+διότι, since, because, that "
+2-1,DCC Vocab,"ὄρεξις, -εως, ἡ, desire
+ἐπαγγελία, -ας, ἡ, promise, goal
+ἐπιτυγχάνω,-τεύξομαι,-έτυχον, to attain
+ὀρέγω, ὀρέξω, ὤρεξα,  to desire + gen.
+ἔκκλισις, -εως, ἡ, aversion, avoidance
+περιπίπτω, -πεσοῦμαι, -έπεσον, to fall into, encounter + dat.
+ἐκκλίνω, ἐκκλινῶ, ἔκκλινα, to avoid
+ἀποτυγχάνω, ἀποτεύξομαι, ἀπέτυχον, to fail in attaining, miss
+ἀτυχής, -ές, unfortunate
+περιπίπτω, περιπεσοῦμαι, περιέπεσον, to fall into, encounter + dat.
+δυστυχής, -ές, misfortunate, miserable
+πενία, -ας, ἡ, poverty, need
+δυστυχέω, δυστυχήσω, ἐδυστύχησα, to be misfortunate, miserable"
+2-2,DCC Vocab,"μετατίθημι, μεταθήσω, μετέθηκα, to transfer
+παντελῶς, (adv.) absolutely, completely
+ἀτυχέω, ἀτυχήσω, ἠτύχησα, to be unfortunate
+οὐδέπω, not yet 
+ἀφορμάω, ἀφορμήσω, ἀφόρμησα, to have a negative impulse, feel aversion, opp. ὁρμάω
+κούφως, (adv.) lightly, nimbly
+ὑπεξαίρεσις, -εως, ἡ, a reservation
+ἀνειμένως, (adv.) without straining"
+3-1,DCC Vocab,"ψυχαγωγέω, ψυχαγωγήσω, ἐψυχαγώγησα, to allure, attract
+χρεία, -ας, ἡ, use, need
+στέργω, στέρξω, ἔστερξα, to love
+ἐπιλέγω, -λέξω, -έλεξα, to say in addition
+ὁποῖος, -α, -ον,  what sort
+σμῑκρός, -ά, -όν = μικρός, small, little
+χύτρα, -ας, ἡ, an earthen pot
+κατάγνυμι, κατάξω, κατέαξα, to shatter, to break
+ταράσσω, ταράξω, ἐτάραξα, to trouble, disturb
+παιδίον, -ου, τό, a young child
+σαυτοῦ, -ῆς, -οῦ, your, of yourself
+καταφιλέω, καταφιλήσω, κατεφίλησα, to kiss tenderly, to caress"
+4-1,DCC Vocab,"ἅπτω, ἅψω, ἥψα, to grasp, obtain, engage in, undertake (+ gen.)
+ὑπομιμνήσκω, ὑπομνήσω, ὑπέμνησα, to remind
+ὁποῖος, -α, -ον, what sort
+λούω, λούσω, ἔλουσα, to wash, to bathe
+προβάλλω, -βαλῶ, -έβαλον, to put before oneself = to keep in mind, imagine  (+ dat.)
+βαλανεῖον, -ου, τό, a bath, establishment for communal bathing
+ἀπορραίνω, ἀπορρανῶ, ἀπέρρανα, to splash
+ἐνσείω, ἐνσείσω, ἐνέσεισα, to jostle
+λοιδορέω, λοιδορήσω, ἐλοιδόρησα, to insult, verbally abuse; reproach, rebuke
+κλέπτω, κλέψω, ἔκλεψα, to steal
+ἀσφαλής, -ές, safe
+ἐπιλέγω, -λέξω, -έλεξα, to say in addition
+ἐμαυτοῦ, -ῆς, -οῦ, of me, of myself
+προαίρεσις, -εως, ἡ, the volition, will
+τηρέω, τηρήσω, ἐτήρησα, to guard, preserve
+ὡσαύτως, adv., in the same way
+ἐμπόδιος, -ον, in the way, impeding, as substantive = an impediment
+πρόχειρος, ον: at hand, readily accessible
+διότι, since, because, that
+ἀγανακτέω, ἀγανακτήσω: to feel irritation, to be annoyed at + genitive; to be irritated or displeased"
+5-1,DCC Vocab,"ταράσσω, ταράξω, ἐτάραξα, to trouble, disturb
+δόγμα, -ατος, τό, opinion, belief, judgment, decision; philosophical principle
+διότι, since, because, that
+ἐμποδίζω, -ποδιῶ, -επόδισα, to hinder, frustrate
+λυπέω, λυπήσω, ἐλύπησα, to grieve, to vex
+μηδέποτε, never
+αἰτιάομαι, αἰτιάσομαι, ᾐτιασάμην, to blame
+ἀπαίδευτος, -ον, uneducated
+ἐγκαλέω, ἐγκαλῶ, ἐνεκάλεσα, to rebuke, reproach + dat.
+παιδεύω, παιδεύσω, ἐπαίδευσα, to teach, educate"
+6-1,DCC Vocab,"ἐπαίρω, ἐπαρῶ, ἐπῆρα, to lift up; in passive: to be proud, elated
+ἀλλότριος, -α, -ον, not one's own, under the control of others
+προτέρημα,-ατος, τό, advantage, distinction
+οἰστός,-ή,-όν, bearable, endurable
+χρῆσις, -εως, ἡ, use
+φαντασία,-ας, ἡ, impression, appearance, perception
+τηνικαῦτα, adv., at that time, then"
+7-1,DCC Vocab,"καθάπερ, adv., just as, as if
+πλόος, -οῦς, ὁ, voyage
+πλοῖον, -ου, τό, ship
+καθορμίζω, καθορμίσω, ἐκαθόρμισα, bring ship into harbor, anchor
+ἐξέρχομαι, ἐξελεύσομαι, ἐξῆλθον, to go out, come out
+ὑδρεύω, ὑδρεύσω, ὕδρευσα, to fetch water
+πάρεργον, -ου, τό, subordinate or secondary business
+κοχλίδιον,-ου, τό, small shellfish
+ἀναλέγω, ἀναλέξω, ἀνάλεξα, to gather up, pick up
+βολβαρίον, -ου, τό, a plant with an edible bulb, purse tassel (muscari comosum)
+διάνοια, -ας, ἡ, thought, mind, attention
+συνέχως, adv., constantly
+ἐπιστρέφω, - στρέψω, -έστρεψα, to turn around, turn to; (mid.) turn oneself around; pay attention
+κυβερνήτης, -ου, ὁ, pilot, captain
+ἐμβάλλω, ἐμβάλω, ἐνέβαλον, to throw in
+πρόβατον, ου, τό, sheep; cattle
+γυναικάριον,-ου, τό, little woman > γυνἠ, γυναικός, ἡ
+τρέχω, δραμοῦμαι, ἔδραμον, to run
+γέρων, -οντος, ὀ, old man
+ἀπαλλάσσω, ἀπαλλάξω, ἀπήλλαξα, to set free; (pass.) to be removed, depart
+μαρκάν, (adv.) far 
+ἐλλείπω, ἐλλείψω, ἔλλιπον, to leave undone, leave behind"
+8-1,DCC Vocab,"εὐροέω, -ήσω, to flow smoothly, be well"
+9-1,DCC Vocab,"ἐμπόδιος, -ον, in the way, impeding, as substantive = an impediment
+προαίρεσις, -εως, ἡ, the volition, will
+χώλωσις, -εως, ἡ, lameness
+σκέλος, -εος (ους when contractred), τό, leg
+ἐμπίπτω, ἐμπεσοῦμαι, ἐνέπεσον, to fall upon or into, happen
+ἐπιλέγω, -λέξω, -έλεξα, to say in addition"
+10-1,DCC Vocab,"προσπίπτω, προσπεσοῦμαι, -έπεσον, to fall upon, happen
+ἐπιστρέφω, - στρέψω, -έστρεψα, to turn around, turn to; (mid.) turn oneself around; pay attention
+χρῆσις, -εως, ἡ, use
+ἐγκράτεια, -ας, ἡ, self-control, prudence
+προσφέρω, προσοίσω, προσένεικα, to bring to, apply to; (pass.) approach, attack
+καρτερία, -ας, ἡ, endurance, perseverance
+λοιδορία, -ας, ἡ, verbal abuse, insult
+ἀνεξικακία, -ας, ἡ, forbearance
+ἐθίζω, ἐθιῶ, εἴθισα, to accustom
+συναρπάζω, -άσω, συνήρπασα, to seize, carry away
+φαντασία,-ας, ἡ, impression, appearance, perception"

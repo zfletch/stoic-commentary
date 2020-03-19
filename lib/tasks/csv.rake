@@ -5,6 +5,7 @@ namespace :csv do
 
   task reload: :environment do
     Passage.destroy_all
+    Comment.destroy_all
     Reference.destroy_all
     Edition.destroy_all
     Text.destroy_all
