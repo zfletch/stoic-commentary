@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
     if user_session.valid?
       sign_in(user_session.user)
 
-      redirect_to return_path, sucecss: t('.success')
+      redirect_to return_path, success: t('.success')
     else
       render :new
     end
@@ -21,7 +21,7 @@ class SessionsController < ApplicationController
   def destroy
     session.delete(:user_id)
 
-    redirect_to root_path, notice: t('.log_out')
+    redirect_to root_path, notice: t('.sign_out')
   end
 
   private

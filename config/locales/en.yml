@@ -1,6 +1,6 @@
 en:
   authorizable:
-    unauthorized: Please log in before continuing.
+    unauthorized: Please sign in before continuing.
   sessions:
     new:
       email: Email address
@@ -9,8 +9,9 @@ en:
       submit: Sign in
       sign_in: Please sign in
     create:
-      success: Logged in.
-      log_out: Logged out.
+      success: Successfully signed in.
+    destroy:
+      sign_out: Successfully signed out.
   users:
     new:
       create_account: New account
@@ -28,6 +29,14 @@ en:
     create:
       success: Comment saved.
       failure: Comment failed to save.
+  references:
+    index:
+      title: StOIC Interactive Commentary
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      about_title: About the project
+      about_text: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+      other_title: Some other thing
+      other_text: Quisque dapibus lectus in augue luctus maximus. Morbi cursus turpis vitae finibus viverra. Aenean fringilla diam non diam facilisis, nec condimentum lectus tristique. Suspendisse pellentesque urna in nibh mollis, non congue nunc tincidunt. Aliquam dapibus sodales urna, at efficitur risus feugiat eget. Curabitur vehicula lorem risus, quis laoreet lacus rhoncus sed. Morbi nec mauris sapien. Donec sed pellentesque felis, eu rutrum massa. Sed dignissim magna tincidunt maximus facilisis. Ut non convallis nisi, in egestas tellus. Duis ullamcorper, felis eget pharetra hendrerit, nisl risus viverra justo, eu vestibulum ex lectus quis tellus.
   activemodel:
     errors:
       models:
@@ -39,6 +48,7 @@ en:
     header:
       stoic: StOIC
       home: Home
+      account: Account
       sign_in: Sign in
       sign_out: Sign out
     footer:

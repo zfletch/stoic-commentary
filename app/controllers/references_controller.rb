@@ -9,7 +9,7 @@ class ReferencesController < ApplicationController
 
   private
 
-  def reference
+  def set_reference
     @reference ||= Reference.find_by!(ref: params[:ref])
   end
 end
