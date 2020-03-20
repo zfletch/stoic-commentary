@@ -1,3 +1,5 @@
+require 'verifier'
+
 class PasswordReset
   include ActiveModel::Model
 
@@ -25,7 +27,7 @@ class PasswordReset
   private
 
   def verifier
-    @verifier ||= Verifier.new(Rails.application.secrets.password_reset_key)
+    @verifier ||= Verifier.new(Rails.application.secrets.secret_key_base)
   end
 
   def user_exists
