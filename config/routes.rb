@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  ActiveAdmin.routes(self)
+
   resource :sessions, only: [:new, :create, :destroy]
   resources :users, only: [:new, :create]
   resource :user, only: [:edit, :update], path: :account

@@ -14,6 +14,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'octicons_helper'
 gem 'bootstrap_form'
+gem 'activeadmin'
 
 group :development, :test do
   gem 'bullet'

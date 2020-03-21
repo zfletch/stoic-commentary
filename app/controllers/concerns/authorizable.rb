@@ -19,6 +19,12 @@ module Authorizable
     redirect_to new_sessions_path, notice: t('authorizable.unauthorized')
   end
 
+  def require_admin_authentication
+    return if current_user && current_user.admin?
+
+    redirect_to new_sessions_path, notice: t('authorizable.unauthorized')
+  end
+
   def sign_in(user)
     session[:user_id] = user.id.to_s
   end
