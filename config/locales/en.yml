@@ -42,9 +42,13 @@ en:
     show:
       title: Reference %{ref}
       first: « First
+      first_no_text: «
       previous: ‹ Back
+      previous_no_text: ‹
       next: Next ›
+      next_no_text: ›
       last: Last »
+      last_no_text: »
       comments: Comments
     comments:
       says: "%{name} says:"

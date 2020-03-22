@@ -9,10 +9,24 @@
 
   <div class="row text-center">
     <div class="col-lg-1 col-2 offset-1 offset-lg-3">
-      <%= link_to t('.first'), reference_path(Reference.first), class: 'reference-navigation-link' %>
+      <%= link_to reference_path(Reference.first), class: 'reference-navigation-link' do %>
+        <span class="d-none d-sm-block">
+          <%= t('.first') %>
+        </span>
+        <span class="d-sm-none">
+          <%= t('.first_no_text') %>
+        </span>
+      <% end %>
     </div>
     <div class="col-lg-1 col-2">
-      <%= link_to t('.previous'), reference_path(@reference.previous), class: 'reference-navigation-link' %>
+      <%= link_to reference_path(@reference.previous), class: 'reference-navigation-link' do %>
+        <span class="d-none d-sm-block">
+          <%= t('.previous') %>
+        </span>
+        <span class="d-sm-none">
+          <%= t('.previous_no_text') %>
+        </span>
+      <% end %>
     </div>
     <div class="col-lg-2 col-2">
       <button type="button" class="btn btn-link pt-0 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -25,10 +39,24 @@
       </div>
     </div>
     <div class="col-lg-1 col-2">
-      <%= link_to t('.next'), reference_path(@reference.next), class: 'reference-navigation-link' %>
+      <%= link_to reference_path(@reference.next), class: 'reference-navigation-link' do %>
+        <span class="d-none d-sm-block">
+          <%= t('.next') %>
+        </span>
+        <span class="d-sm-none">
+          <%= t('.next_no_text') %>
+        </span>
+      <% end %>
     </div>
     <div class="col-lg-1 col-2">
-      <%= link_to t('.last'), reference_path(Reference.last), class: 'reference-navigation-link' %>
+      <%= link_to reference_path(Reference.last), class: 'reference-navigation-link' do %>
+        <span class="d-none d-sm-block">
+          <%= t('.last') %>
+        </span>
+        <span class="d-sm-none">
+          <%= t('.last_no_text') %>
+        </span>
+      <% end %>
     </div>
   </div>
 
