@@ -72,8 +72,8 @@
 </div>
 
 <script>
-  var defaultLeft = '<%= j @passages.first.edition_id %>';
-  var defaultRight = '<%= j @passages.second.edition_id %>';
+  var defaultLeft = '<%= j Edition.default_left %>';
+  var defaultRight = '<%= j Edition.default_right %>';
 
   function getParams() {
     var params = {};

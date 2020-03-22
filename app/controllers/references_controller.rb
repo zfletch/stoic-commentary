@@ -4,8 +4,6 @@ class ReferencesController < ApplicationController
   before_action :set_passages, only: [:show]
   before_action :set_comments, only: [:show]
 
-  helper_method :left, :right
-
   def show
     @comment = Comment.new
   end

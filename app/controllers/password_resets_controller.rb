@@ -28,7 +28,7 @@ class PasswordResetsController < ApplicationController
 
       redirect_to edit_user_path, notice: t('.reset_password')
     else
-      redirect_to new_session_path, error: t('.invalid_token')
+      redirect_to new_sessions_path, error: t('.invalid_token')
     end
   end
 
