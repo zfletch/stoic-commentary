@@ -1,24 +1,37 @@
-# README
+# StOIC
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Stoic Online Interactive Commentary of Epictetus' Enchiridion.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+### Requirements
 
-* System dependencies
+* Ruby 2.6.0
+* Node 13.9.0
 
-* Configuration
+### Setup
 
-* Database creation
+* `gem install bundler`
+* `gem install`
+* `yarn install`
 
-* Database initialization
+### Configuration
 
-* How to run the test suite
+If running in production you will need to set the following environment variables:
 
-* Services (job queues, cache servers, search engines, etc.)
+* `SECRET_KEY_BASE`
+* `HOST`
+* `FROM_EMAIL`
 
-* Deployment instructions
+## Running the application
 
-* ...
+* `bundle exec rails server`
+
+## Running tests
+
+* `bundle exec rspec`
+
+## Bugs and feature requests
+
+For any bugs or feature requests, please create
+[a GitHub issue](https://github.com/zfletch/stoic/issues).
