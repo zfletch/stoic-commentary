@@ -1,5 +1,6 @@
 class PasswordResetsController < ApplicationController
   before_action :require_no_authentication, only: [:new, :create, :show]
+  before_action :set_password_reset, only: [:show]
 
   def new
     @password_reset = PasswordReset.new
@@ -20,7 +21,6 @@ class PasswordResetsController < ApplicationController
   end
 
   def show
-    @password_reset = PasswordReset.new(token: params[:token])
     password_reset.user_from_token!
 
     if password_reset.valid?
@@ -35,6 +35,10 @@ class PasswordResetsController < ApplicationController
   private
 
   attr_reader :password_reset
+
+  def set_password_reset
+    @password_reset = PasswordReset.new(token: params[:token])
+  end
 
   def password_reset_params
     params.require(:password_reset).permit(:email)

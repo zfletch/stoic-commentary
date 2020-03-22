@@ -32,11 +32,11 @@ class CommentsController < ApplicationController
   attr_reader :reference, :comment
 
   def set_reference
-    @reference ||= Reference.find_by!(ref: params[:reference_ref])
+    @reference = Reference.find_by!(ref: params[:reference_ref])
   end
 
   def set_comment
-    @comment ||= Comment.find_by!(id: params[:id])
+    @comment = Comment.find_by!(id: params[:id])
   end
 
   def return_path

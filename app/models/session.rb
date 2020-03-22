@@ -15,7 +15,7 @@ class Session
   private
 
   def can_authenticate
-    return if user && user.authenticate(password)
+    return if user&.authenticate(password)
 
     errors.add(:email, :cannot_authenticate)
   end

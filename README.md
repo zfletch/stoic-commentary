@@ -32,8 +32,8 @@ If running in production you will need to set the following environment variable
 
 ## Running tests
 
-* `bundle exec rails db:migrate RAILS_ENV=test`
-* `bundle exec rails csv:reload RAILS_ENV=test`
+* `RAILS_ENV=test bundle exec rails db:migrate`
+* `RAILS_ENV=test bundle exec rails csv:reload`
 * `bundle exec rspec`
 
 ## Bugs and feature requests

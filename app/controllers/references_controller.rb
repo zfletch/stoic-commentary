@@ -16,18 +16,18 @@ class ReferencesController < ApplicationController
   attr_reader :reference, :passages
 
   def set_reference
-    @reference ||= Reference.find_by!(ref: params[:ref])
+    @reference = Reference.find_by!(ref: params[:ref])
   end
 
   def set_references
-    @references ||= Reference.all.order(:rank)
+    @references = Reference.all.order(:rank)
   end
 
   def set_passages
-    @passages ||= reference.passages.includes(:edition).order(:edition_id)
+    @passages = reference.passages.includes(:edition).order(:edition_id)
   end
 
   def set_comments
-    @comments ||= reference.comments.approved.includes(:user).order(:created_at)
+    @comments = reference.comments.approved.includes(:user).order(:created_at)
   end
 end

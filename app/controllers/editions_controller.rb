@@ -7,6 +7,6 @@ class EditionsController < ApplicationController
   private
 
   def set_edition
-    @edition ||= Edition.find_by!(id: params[:id])
+    @edition = Edition.find_by!(id: params[:id])
   end
 end

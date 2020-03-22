@@ -1,7 +1,7 @@
 class Edition < ApplicationRecord
   belongs_to :text
 
-  has_many :passages
+  has_many :passages, dependent: :destroy
 
   validates :name, presence: true
   validates :description, presence: true

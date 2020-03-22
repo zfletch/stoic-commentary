@@ -1,0 +1,18 @@
+inherit_gem:
+  gnar-style:
+    - "rubocop/rubocop_rails.yml"
+
+Layout/LineLength:
+  Max: 120
+  Severity: refactor
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+    - "app/admin/**/*"
+    - "lib/tasks/**/*"
+    - "config/routes.rb"
+    - "config/environments/**/*"

@@ -20,7 +20,7 @@ module Authorizable
   end
 
   def require_admin_authentication
-    return if current_user && current_user.admin?
+    return if current_user&.admin?
 
     redirect_to new_sessions_path, notice: t('authorizable.unauthorized')
   end

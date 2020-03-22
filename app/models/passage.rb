@@ -5,11 +5,7 @@ class Passage < ApplicationRecord
   validates :passage, presence: true
   validates :reference_id, uniqueness: { scope: :edition_id }
 
-  def edition_id
-    edition.id
-  end
+  delegate :id, to: :edition, prefix: true
 
-  def edition_name
-    edition.name
-  end
+  delegate :name, to: :edition, prefix: true
 end

@@ -11,7 +11,5 @@ class Comment < ApplicationRecord
     removed
   ]
 
-  def user_name
-    user.name
-  end
+  delegate :name, to: :user, prefix: true
 end

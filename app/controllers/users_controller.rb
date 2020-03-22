@@ -39,6 +39,6 @@ class UsersController < ApplicationController
       :name,
       :password,
       :password_confirmation,
-    ).delete_if { |k, v| v.blank? }
+    ).delete_if { |_k, v| v.blank? }
   end
 end
