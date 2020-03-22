@@ -73,6 +73,8 @@ en:
            email:
             no_user: No user exists with that email address.
   layouts:
+    application:
+      stoic: StOIC
     header:
       stoic: StOIC
       home: Home

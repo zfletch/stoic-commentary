@@ -14,6 +14,9 @@ The Stoic Online Interactive Commentary of Epictetus' Enchiridion.
 * `gem install bundler`
 * `gem install`
 * `yarn install`
+* `bundle exec rails db:create`
+* `bundle exec rails db:migrate`
+* `bundle exec rails csv:reload`
 
 ### Configuration
 
@@ -29,6 +32,8 @@ If running in production you will need to set the following environment variable
 
 ## Running tests
 
+* `bundle exec rails db:migrate RAILS_ENV=test`
+* `bundle exec rails csv:reload RAILS_ENV=test`
 * `bundle exec rspec`
 
 ## Bugs and feature requests
