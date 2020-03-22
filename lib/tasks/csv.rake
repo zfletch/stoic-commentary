@@ -10,8 +10,8 @@ namespace :csv do
     Edition.destroy_all
     Text.destroy_all
 
-    editions = CSV.read(Rails.root.join('vendor', 'editions.csv'))
-    passages = CSV.read(Rails.root.join('vendor', 'passages.csv'))
+    editions = CSV.read(Rails.root.join('vendor', 'csv', 'editions.csv'))
+    passages = CSV.read(Rails.root.join('vendor', 'csv', 'passages.csv'))
 
     text = Text.create!(urn: 'urn:cts:greekLit:tlg0557.tlg002.perseus-grc2')
 

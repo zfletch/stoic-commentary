@@ -39,4 +39,4 @@ If running in production you will need to set the following environment variable
 ## Bugs and feature requests
 
 For any bugs or feature requests, please create
-[a GitHub issue](https://github.com/zfletch/stoic/issues).
+[a GitHub issue](https://github.com/zfletch/stoic-commentary/issues).
