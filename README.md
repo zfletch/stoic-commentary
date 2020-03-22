@@ -23,7 +23,7 @@ The Stoic Online Interactive Commentary of Epictetus' Enchiridion.
 If running in production you will need to set the following environment variables:
 
 * `SECRET_KEY_BASE`
-* `HOST`
+* `DOMAIN_HOST`
 * `FROM_EMAIL`
 
 ## Running the application
