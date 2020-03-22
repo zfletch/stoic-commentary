@@ -8,6 +8,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap_form'
 gem 'jbuilder', '~> 2.7'
+gem 'mailgun-ruby'
 gem 'octicons_helper'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
