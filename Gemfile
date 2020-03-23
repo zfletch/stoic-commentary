@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 ruby '2.6.0'
 
 gem 'activeadmin'
-gem 'administrate', '>= 0.12.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap_form'
