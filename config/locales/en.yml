@@ -49,6 +49,7 @@ en:
       next_no_text: ›
       last: Last »
       last_no_text: »
+      about: Learn more
       comments: Comments
     comments:
       says: "%{name} says:"

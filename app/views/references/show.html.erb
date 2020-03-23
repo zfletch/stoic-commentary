@@ -72,6 +72,9 @@
             <form class="form-inline">
               <span class="mr-2">
                 <%= passage.edition.name %>
+                <sup>
+                  <%= link_to octicon('info', fill: 'currentColor'), edition_path(passage.edition), title: t('.about') %>
+                </sup>
               </span>
               <%= selector %>
             </form>

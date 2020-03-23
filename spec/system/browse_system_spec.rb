@@ -33,4 +33,15 @@ RSpec.describe 'Browse', type: :system do
     click_link('« First')
     expect(page).to have_text('Reference 1.1')
   end
+
+  it 'links to edition information' do
+    visit '/'
+
+    click_link('Browse')
+
+    click_link('Learn more')
+
+    expect(page).to have_text('Greek')
+    expect(page).to have_text('test')
+  end
 end
