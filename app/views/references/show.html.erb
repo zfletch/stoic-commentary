@@ -125,7 +125,7 @@
     var right = params['right'] || defaultRight;
     var left = select.target.value;
 
-    window.history.pushState({}, '', window.location.pathname + '?' + $.param({ left: left, right: right }));
+    window.history.pushState({ turbolinks: true }, '', window.location.pathname + '?' + $.param({ left: left, right: right }));
 
     render();
   }
@@ -135,7 +135,7 @@
     var left = params['left'] || defaultLeft;
     var right = select.target.value;
 
-    window.history.pushState({}, '', window.location.pathname + '?' + $.param({ left: left, right: right }));
+    window.history.pushState({ turbolinks: true }, '', window.location.pathname + '?' + $.param({ left: left, right: right }));
 
     render();
   }
