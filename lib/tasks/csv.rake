@@ -4,22 +4,17 @@ namespace :csv do
   desc 'Load CSV files in vendor/ directory.'
 
   task reload: :environment do
-    Passage.destroy_all
-    Comment.destroy_all
-    Reference.destroy_all
-    Edition.destroy_all
-    Text.destroy_all
-
     editions = CSV.read(Rails.root.join('vendor', 'csv', 'editions.csv'))
     passages = CSV.read(Rails.root.join('vendor', 'csv', 'passages.csv'))
 
-    text = Text.create!(urn: 'urn:cts:greekLit:tlg0557.tlg002.perseus-grc2')
+    text = Text.find_or_create_by!(urn: 'urn:cts:greekLit:tlg0557.tlg002.perseus-grc2')
 
     edition_hash = {}
     editions.each do |edition|
       name, description = *edition
 
-      edition_hash[name] = Edition.create!(text: text, name: name, description: description)
+      edition_hash[name] = Edition.find_or_create_by!(text: text, name: name)
+      edition_hash[name].update(description: description)
     end
 
     reference_hash = {}
@@ -27,16 +22,17 @@ namespace :csv do
     passages.each do |passage|
       ref = passage[0]
 
-      unless reference_hash[ref]
-        reference_hash[ref] = Reference.create!(text: text, rank: rank, ref: ref)
-        rank += 1
-      end
+      next if reference_hash[ref]
+
+      reference_hash[ref] = Reference.find_or_create_by!(rank: rank, ref: ref, text: text)
+      rank += 1
     end
 
     passages.each do |passage|
       ref, edition_title, text = *passage
 
-      Passage.create!(reference: reference_hash[ref], edition: edition_hash[edition_title], passage: text)
+      passage = Passage.find_or_create_by!(reference: reference_hash[ref], edition: edition_hash[edition_title])
+      passage.update(passage: text)
     end
   end
 end
