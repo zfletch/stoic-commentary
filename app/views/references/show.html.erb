@@ -9,28 +9,19 @@
 
   <div class="row text-center">
     <div class="col-lg-1 col-2 offset-1 offset-lg-3">
-      <%= link_to reference_path(Reference.first), class: 'reference-navigation-link' do %>
-        <span class="d-none d-sm-block">
-          <%= t('.first') %>
-        </span>
-        <span class="d-sm-none">
-          <%= t('.first_no_text') %>
-        </span>
-      <% end %>
+      <%= link_to t('.first'), reference_path(@first), class: 'reference-navigation-link d-none d-sm-block' %>
+      <%= link_to t('.first_no_text'), reference_path(@first), class: 'reference-navigation-link btn btn-block btn-secondary d-sm-none' %>
     </div>
     <div class="col-lg-1 col-2">
-      <%= link_to reference_path(@reference.previous), class: 'reference-navigation-link' do %>
-        <span class="d-none d-sm-block">
-          <%= t('.previous') %>
-        </span>
-        <span class="d-sm-none">
-          <%= t('.previous_no_text') %>
-        </span>
-      <% end %>
+      <%= link_to t('.previous'), reference_path(@previous), class: 'reference-navigation-link d-none d-sm-block' %>
+      <%= link_to t('.previous_no_text'), reference_path(@previous), class: 'reference-navigation-link btn btn-block btn-secondary d-sm-none' %>
     </div>
     <div class="col-lg-2 col-2">
-      <button type="button" class="btn btn-link pt-0 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <%= @reference.display_ref %>
+      <button type="button" class="btn btn-link pt-0 dropdown-toggle dropdown-toggle-split d-none d-sm-inline-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <%= @display_ref %>
+      </button>
+      <button type="button" class="btn btn-block btn-secondary dropdown-toggle dropdown-toggle-split d-sm-none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <%= @display_ref %>
       </button>
       <div class="dropdown-menu">
         <% @references.each do |reference| %>
@@ -39,24 +30,12 @@
       </div>
     </div>
     <div class="col-lg-1 col-2">
-      <%= link_to reference_path(@reference.next), class: 'reference-navigation-link' do %>
-        <span class="d-none d-sm-block">
-          <%= t('.next') %>
-        </span>
-        <span class="d-sm-none">
-          <%= t('.next_no_text') %>
-        </span>
-      <% end %>
+      <%= link_to t('.next'), reference_path(@next), class: 'reference-navigation-link d-none d-sm-block' %>
+      <%= link_to t('.next_no_text'), reference_path(@next), class: 'reference-navigation-link btn btn-block btn-secondary d-sm-none' %>
     </div>
     <div class="col-lg-1 col-2">
-      <%= link_to reference_path(Reference.last), class: 'reference-navigation-link' do %>
-        <span class="d-none d-sm-block">
-          <%= t('.last') %>
-        </span>
-        <span class="d-sm-none">
-          <%= t('.last_no_text') %>
-        </span>
-      <% end %>
+      <%= link_to t('.last'), reference_path(@last), class: 'reference-navigation-link d-none d-sm-block' %>
+      <%= link_to t('.last_no_text'), reference_path(@last), class: 'reference-navigation-link btn btn-block btn-secondary d-sm-none' %>
     </div>
   </div>
 
@@ -65,7 +44,7 @@
   <div class="row pt-2">
     <% ['left', 'right'].each do |direction| %>
      <% selector = select_tag 'ref', options_from_collection_for_select(@passages, :edition_id, :edition_name) + options_for_select([[t('.comments'), 'c']]), class: "form-control select-#{direction}" %>
-    <div class="col-sm-6">
+    <div class="col-sm-6 mb-2 mb-sm-0">
       <% @passages.each do |passage| %>
         <div class="passage passage-<%= direction %>-<%= passage.edition_id %> d-none">
           <h5>

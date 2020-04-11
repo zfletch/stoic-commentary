@@ -7,22 +7,6 @@ class Reference < ApplicationRecord
   validates :ref, presence: true, uniqueness: { scope: :text_id }
   validates :rank, presence: true, uniqueness: { scope: :text_id }
 
-  def self.first
-    Reference.order(:rank).first
-  end
-
-  def self.last
-    Reference.order(:rank).last
-  end
-
-  def next
-    Reference.find_by(rank: rank + 1) || self
-  end
-
-  def previous
-    Reference.find_by(rank: rank - 1) || self
-  end
-
   def to_param
     ref
   end
