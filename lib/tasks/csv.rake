@@ -13,8 +13,9 @@ namespace :csv do
     editions.each do |edition|
       name, description = *edition
 
-      edition_hash[name] = Edition.find_or_create_by!(text: text, name: name)
-      edition_hash[name].update(description: description)
+      edition_hash[name] = Edition.find_or_initialize_by(text: text, name: name)
+      edition_hash[name].description = description
+      edition_hash[name].save!
     end
 
     reference_hash = {}
@@ -31,8 +32,9 @@ namespace :csv do
     passages.each do |passage|
       ref, edition_title, text = *passage
 
-      passage = Passage.find_or_create_by!(reference: reference_hash[ref], edition: edition_hash[edition_title])
-      passage.update(passage: text)
+      passage = Passage.find_or_initialize_by(reference: reference_hash[ref], edition: edition_hash[edition_title])
+      passage.passage = text
+      passage.save!
     end
   end
 end
