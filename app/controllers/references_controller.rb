@@ -23,8 +23,8 @@ class ReferencesController < ApplicationController
 
   def set_surrounding_references
     @first = references.first
-    @previous = references[reference_index - 1] || reference
-    @next = references[reference_index + 1] || reference
+    @previous = references[previous_index]
+    @next = references[next_index]
     @last = references.last
   end
 
@@ -41,9 +41,17 @@ class ReferencesController < ApplicationController
   end
 
   def reference_index
-    # Even though find_by may be asymptotically more efficient
+    # Even though find_by may be asymptotically more efficient,
     # in practice avoiding a call to the DB and searching
     # the `references` array will be much faster.
     @reference_index ||= references.index { |r| r.ref == params[:ref] }
+  end
+
+  def previous_index
+    [reference_index - 1, 0].max
+  end
+
+  def next_index
+    [reference_index + 1, references.size - 1].min
   end
 end

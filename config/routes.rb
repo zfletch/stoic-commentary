@@ -10,7 +10,6 @@ Rails.application.routes.draw do
   end
   resources :editions, only: [:show]
   resources :comments, only: [:destroy]
-  resources :editions, only: [:show]
   resources :password_resets, only: [:new, :create, :show], param: :token
 
   root 'references#index'
