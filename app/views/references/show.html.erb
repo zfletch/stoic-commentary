@@ -8,7 +8,7 @@
   </div>
 
   <div class="row text-center">
-    <div class="col-lg-1 col-2 offset-1 offset-lg-3">
+    <div class="col-lg-1 col-2 offset-lg-3">
       <%= link_to t('.first'), reference_path(@first), class: 'reference-navigation-link d-none d-sm-block' %>
       <%= link_to t('.first_no_text'), reference_path(@first), class: 'reference-navigation-link btn btn-block btn-secondary d-sm-none' %>
     </div>
@@ -16,7 +16,7 @@
       <%= link_to t('.previous'), reference_path(@previous), class: 'reference-navigation-link d-none d-sm-block' %>
       <%= link_to t('.previous_no_text'), reference_path(@previous), class: 'reference-navigation-link btn btn-block btn-secondary d-sm-none' %>
     </div>
-    <div class="col-lg-2 col-2">
+    <div class="col-lg-2 col-4">
       <button type="button" class="btn btn-link pt-0 dropdown-toggle dropdown-toggle-split d-none d-sm-inline-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <%= @display_ref %>
       </button>
