@@ -21,6 +21,10 @@ html {
   padding-bottom: 62px;
 }
 
+#alpheios-toolbar-inner {
+  display: none;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
