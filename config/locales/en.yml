@@ -69,7 +69,7 @@ en:
   abouts:
     show:
       title: About StOIC
-      description_html: "<p>hello world</p>"
+      description_html: "<p>The Stoic Online Interactive Commentary (StOIC) is maintained by graduate students studying classics at Tufts University. Although there are resources for those interested in Stoicism, we found that there was not a place for people to share their thoughts on Stoic texts. Our mission is to allow people from all over the world to interact with the writings of Epictetus and other Stoic authors.</p> <p>At the moment, we have the first 10 sections of Epictetus' <em>Enchiridion</em> for users to explore. In the near future, we plan on adding the rest of the <em>Enchiridion</em> along with more commentaries. As you may have noticed, you can click on a Greek word and learn more about its morphology thanks to the <a href=\"https://alpheios.net/pages/tools/\">Alpheios Embedded Javascript Library</a>. We plan on adding other tools to the website soon. The website is still early in development, and we would appreciate some feedback.</p> <p>If you have any suggestions or comments, please send an email to the following address: admin@stoic-commentary.online</p>"
   activemodel:
     errors:
       models:
