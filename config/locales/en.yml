@@ -66,6 +66,10 @@ en:
     show:
       reset_password: Reset your password.
       invalid_token: "Unable to reset password. Please click 'Reset password' and try again."
+  abouts:
+    show:
+      title: About StOIC
+      description_html: "<p>hello world</p>"
   activemodel:
     errors:
       models:
@@ -83,6 +87,7 @@ en:
     header:
       stoic: StOIC
       home: Home
+      about: About
       account: Account
       sign_in: Sign in
       sign_out: Sign out

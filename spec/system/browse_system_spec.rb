@@ -7,6 +7,14 @@ RSpec.describe 'Browse', type: :system do
     expect(page).to have_text("The Stoic Online Interactive Commentary of Epictetus' Enchiridion.")
   end
 
+  it 'shows me the about page' do
+    visit '/'
+
+    click_link('About')
+
+    expect(page).to have_text('About StOIC')
+  end
+
   it 'shows the Greek text and comments when I browse' do
     visit '/'
 

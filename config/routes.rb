@@ -12,5 +12,7 @@ Rails.application.routes.draw do
   resources :comments, only: [:destroy]
   resources :password_resets, only: [:new, :create, :show], param: :token
 
+  resource :about, only: [:show]
+
   root 'references#index'
 end
