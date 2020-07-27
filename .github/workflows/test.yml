@@ -53,5 +53,8 @@ jobs:
       - name: Run tests
         run: bundle exec rspec
 
+      - name: Lint code
+        run: bundle exec rubocop
+
       - name: Audit code
         run: bundle exec bundler-audit check --update
