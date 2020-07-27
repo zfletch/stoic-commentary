@@ -1,0 +1,57 @@
+name: Run tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      db:
+        image: postgres:12
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DATABASE_URL: postgres://postgres:postgres@127.0.0.1
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+
+      - name: Install bundler
+        run: gem install bundler
+
+      - name: Install Ruby dependencies
+        run: bundle install
+
+      - name: Install JavaScript dependencies
+        run: yarn install
+
+      - name: Set up database
+        run: bundle exec rake db:{create,migrate}
+        env:
+          RAILS_ENV: test
+
+      - name: Load CSV
+        run: bundle exec rails csv:reload
+        env:
+          RAILS_ENV: test
+
+      - name: Run tests
+        run: bundle exec rspec
+
+      - name: Audit code
+        run: bundle exec bundler-audit check --update

@@ -36,6 +36,14 @@ If running in production you will need to set the following environment variable
 * `RAILS_ENV=test bundle exec rails csv:reload`
 * `bundle exec rspec`
 
+### Linting code
+
+* `bundle exec rubocop`
+
+### Auditing code
+
+* `bundle exec bundler-audit check --update`
+
 ## Bugs and feature requests
 
 For any bugs or feature requests, please create
