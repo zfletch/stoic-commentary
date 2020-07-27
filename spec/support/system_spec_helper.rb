@@ -11,6 +11,8 @@ end
 RSpec.configure do |config|
   config.include SystemSpecHelper, type: :system
 
+  Capybara.default_max_wait_time = 4
+
   config.before(:each, type: :system) do
     driven_by :selenium, using: :headless_chrome, screen_size: [1366, 768]
   end
