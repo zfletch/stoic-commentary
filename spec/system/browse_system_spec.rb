@@ -50,6 +50,6 @@ RSpec.describe 'Browse', type: :system do
     click_link('Learn more')
 
     expect(page).to have_text('Greek')
-    expect(page).to have_text('test')
+    expect(page).to have_text('Epicteti Dissertationes ab Arriano digestae.')
   end
 end

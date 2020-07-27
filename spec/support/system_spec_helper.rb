@@ -10,4 +10,8 @@ end
 
 RSpec.configure do |config|
   config.include SystemSpecHelper, type: :system
+
+  config.before(:each, type: :system) do
+    driven_by :selenium, using: :headless_chrome, screen_size: [1366, 768]
+  end
 end
