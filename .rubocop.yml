@@ -9,6 +9,9 @@ Layout/LineLength:
 Style/StringLiterals:
   EnforcedStyle: single_quotes
 
+Style/CombinableLoops:
+  Enabled: false
+
 Metrics/BlockLength:
   Exclude:
     - "spec/**/*"
